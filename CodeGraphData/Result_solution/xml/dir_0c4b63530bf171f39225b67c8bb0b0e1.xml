@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0c4b63530bf171f39225b67c8bb0b0e1" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library</compoundname>
+    <innerdir refid="dir_e63d2bb6ebf83a1cb2b0f6356728fc74">C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend</innerdir>
+    <innerdir refid="dir_66a549e931115084f2ea2147f3993fca">C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers</innerdir>
+    <innerdir refid="dir_5111913e577897ed3fe745ff39b66126">C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/"/>
+  </compounddef>
+</doxygen>

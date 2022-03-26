@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_87a7506e14055eeacdf95a6e29d14d00" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations</compoundname>
+    <innerfile refid="_control_point_driver_8cs">ControlPointDriver.cs</innerfile>
+    <innerfile refid="_dock_driver_8cs">DockDriver.cs</innerfile>
+    <innerfile refid="_docker_driver_8cs">DockerDriver.cs</innerfile>
+    <innerfile refid="_exo_android_driver_8cs">ExoAndroidDriver.cs</innerfile>
+    <innerfile refid="_laptop_driver_8cs">LaptopDriver.cs</innerfile>
+    <innerfile refid="_radar_driver_8cs">RadarDriver.cs</innerfile>
+    <innerfile refid="_scan_driver_8cs">ScanDriver.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/"/>
+  </compounddef>
+</doxygen>

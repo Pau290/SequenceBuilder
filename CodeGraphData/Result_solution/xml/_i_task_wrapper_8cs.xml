@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_task_wrapper_8cs" kind="file">
+    <compoundname>ITaskWrapper.cs</compoundname>
+    <innerclass refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4" prot="public">Sequence::Space::ITaskWrapper&lt; T &gt;</innerclass>
+    <innernamespace refid="namespace_sequence_1_1_space">Sequence::Space</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Sequence.Builder;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq.Expressions;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_sequence_1_1_space" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Sequence.Space</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal">ITaskWrapper&lt;T&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task<sp/>GetTaskOnSubject(Expression&lt;Action&lt;T&gt;&gt;<sp/>action,<sp/>CancellationTokenSource<sp/>tokenSource,<sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder&lt;T&gt;</ref><sp/>builder);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task<sp/>GetTaskOnSubjectV2(Expression&lt;Action&lt;T&gt;&gt;<sp/>action,<sp/>CancellationTokenSource<sp/>tokenSource,<sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>builder);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(Expression&lt;Action&gt;<sp/>registerAction);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(Expression&lt;Action&gt;<sp/>registerAction,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cancelAfterMiliseconds);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(Expression&lt;Action&gt;<sp/>registerAction,<sp/>TimeSpan<sp/>cancelAfter);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cancelAfterMiliseconds);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(TimeSpan<sp/>cancelAfter);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Interfaces/ITaskWrapper.cs"/>
+  </compounddef>
+</doxygen>

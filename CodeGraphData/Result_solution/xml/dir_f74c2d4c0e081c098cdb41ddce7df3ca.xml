@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f74c2d4c0e081c098cdb41ddce7df3ca" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder</compoundname>
+    <innerdir refid="dir_0c4b63530bf171f39225b67c8bb0b0e1">C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library</innerdir>
+    <innerdir refid="dir_8ff4018fe3e05591e113bd8bf346b3d1">C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder</innerdir>
+    <innerdir refid="dir_f6f26912e195fdedbbb6a4dab2e0a83d">C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Cmd</innerdir>
+    <innerdir refid="dir_c8319785f36dc59165094613fbe4544a">C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Cmd.2</innerdir>
+    <innerdir refid="dir_179b9ca51d6765d24d83392ff751dd09">C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/"/>
+  </compounddef>
+</doxygen>

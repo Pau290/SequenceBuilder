@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_dockers_1_1_drivers_1_1_control_point_driver" kind="class"><name>Dockers::Drivers::ControlPointDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1acf740f44f9db507e4a65177d7340b322" kind="variable"><name>dockerDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac9c77a58645a519c6c25e69e862d43ed" kind="variable"><name>radarDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a5cfe5812f8acca38a65239f4803fb759" kind="function"><name>ControlPointDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1aa9d57145f848b2737ba2a9001a919c79" kind="function"><name>IncomeShip</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a172967c3630af5cf29efcf95179534d5" kind="function"><name>SetContext</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a62fa0f15ac0a7919976b7b2d3a287d4c" kind="function"><name>BeginAutoOrganizationContext</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a63fd351ccfbbdd6d3eeae3fdda6bb9f3" kind="function"><name>SetDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac6252ec44f8b4a2facb4151fca170a08" kind="function"><name>FreeDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a691338523999322091361dda6aa2bf8e" kind="function"><name>LoadDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac27c8625b2b695cadc32f600be16e141" kind="function"><name>SetupDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a7d0801553baebdad4f11af274dbfb6d5" kind="function"><name>InitRadar</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a38fbd6d171bb3a1e1f6c399a284d6760" kind="function"><name>InformShipsToControlPoint</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1acad63d8fe1d00ff102e1440486dee4fc" kind="function"><name>InitExoAndroids</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_dock_driver" kind="class"><name>Dockers::Drivers::DockDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a3275b50e36810b8f246355ecdfce9f28" kind="variable"><name>androidDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a577ae843ab9b7aeb5144f8dfe1f0972a" kind="function"><name>DockDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a37abeea38cff8e88355ce8c50b5a3bbd" kind="function"><name>FreeExoAndroid</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a17c7f94593d2c3e2c9a6fde9a5b0a2c2" kind="function"><name>SetDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a8aeb97d401f491302c4b5947c12e394c" kind="function"><name>PresFreeButton</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a2a94477fa6d054ec61218036ea4d40a5" kind="function"><name>SetupDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a92bdf9e3c435e19428112341e5acec61" kind="function"><name>CloseDock</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1aaf4ba940a0d3ee3f932171608207efcc" kind="function"><name>getDock</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a28597e542e84789527dbd2e22d94e6fc" kind="function"><name>getRandom</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a11bf0c81f2cbe4ac6ab6115238cada2c" kind="function"><name>getRandomName</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_docker_driver" kind="class"><name>Dockers::Drivers::DockerDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1ad250398133e9f0a5fb0b306da3982b86" kind="variable"><name>dockDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a42a65f9348d436c033de72905290f717" kind="function"><name>DockerDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1acd5900138f16b0b12b1d79f527f9ef8a" kind="function"><name>OpenDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a6a2194c989c750f8b415fabc761aef08" kind="function"><name>SetDockersToControlPoint</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1abf8b8355a9d1d405ce289974462fe08f" kind="function"><name>SetDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a5a4154b119d854c93f0b928b97de2247" kind="function"><name>SetupDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a3efce1203881b12de80a8f7c23cc5d1c" kind="function"><name>InitExoAndroids</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a96965d3686220e4e5109c5e51e8ae406" kind="function"><name>getDocker</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a6148e7a64ce56824fde4633471672863" kind="function"><name>getExoAndroid</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1ad71fb2d2c52f32a1d0e73e805909c1a8" kind="function"><name>getRandom</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_exo_android_driver" kind="class"><name>Dockers::Drivers::ExoAndroidDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1aae85cd955a6e710072152aec40f94da4" kind="variable"><name>laptopDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1afafc15105c193f4846da71e6271a60a1" kind="function"><name>TryReserveDock</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a4aa0d206964b6f377576d16800bb7a5d" kind="function"><name>UnloadGoods</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab56285c0515d29d52d77b312f21a72e2" kind="function"><name>FreeDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a632bde30d2c1a07496b5af03b4ccf07e" kind="function"><name>PresFreeButton</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab6f1f81b6b71e51a41ba2860ac5ae996" kind="function"><name>SearchForGoods</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a0a4c10cbf7f6350bd0c0207ca2cc729f" kind="function"><name>SearchForStore</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver" kind="interface"><name>Dockers::Drivers::IControlPointDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a0204f4417eeea1df8e6c63be890f6b16" kind="function"><name>IncomeShip</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a710722906b773a58d26b6783125bf1ce" kind="function"><name>SetDockers</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1abe1dac0ed58912520c1414332173e291" kind="function"><name>FreeDockers</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1ad0b6179e6514fb4af6929ef15150b5a2" kind="function"><name>LoadDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3c50465ebc1738e093165e77940a659b" kind="function"><name>SetupDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1aa1b1363d0f4c49d4bf9e1f080cf6cc01" kind="function"><name>InitExoAndroids</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3e4648d0535a0df4d6b599aa232e1b9d" kind="function"><name>InitRadar</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a1fa0e14db631b4600f4b1acb00c66570" kind="function"><name>InformShipsToControlPoint</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1af5c2775cb0711ebf5f50d1b0b361fbff" kind="function"><name>SetContext</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a106f3d7ef0b3fb56decd489f84571566" kind="function"><name>BeginAutoOrganizationContext</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_dock_driver" kind="interface"><name>Dockers::Drivers::IDockDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a7c317de8d0c77f70d2e2368fbe19e767" kind="function"><name>FreeExoAndroid</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a3c80be579cef73767c5ea8f433896767" kind="function"><name>SetDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1aa27364b428e9f0095056e4ee716a7705" kind="function"><name>SetupDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a460880797484beef5a347a8b1f1f8283" kind="function"><name>PresFreeButton</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a3e7228f040ac91b989e44b14e349038f" kind="function"><name>CloseDock</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_docker_driver" kind="interface"><name>Dockers::Drivers::IDockerDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a3c51db1a443d069016041d015b0b46e4" kind="function"><name>OpenDockers</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1aef77eb7ec3b8c9d1916802b6c387884d" kind="function"><name>SetDockersToControlPoint</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1ac7a2f4b2031e40f491fb0c64a11db6a1" kind="function"><name>SetDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a4d47a5cc392511d24d0bc272a328da01" kind="function"><name>SetupDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a433cc2c513c087600bf298a5675347cf" kind="function"><name>InitExoAndroids</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver" kind="interface"><name>Dockers::Drivers::IExoAndroidDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a6df869c30f51fa20a1b993b8085588fd" kind="function"><name>SearchForStore</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a339a6e7d748f08b3320123bb1041b306" kind="function"><name>SearchForGoods</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a07d6ec68422df27d859db68ab1578993" kind="function"><name>TryReserveDock</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a71f031a602d49da1ee1750fec38ee44a" kind="function"><name>UnloadGoods</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a3a5744e5d9b5b64db9f0f9a45c938d62" kind="function"><name>FreeDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1aec3b20999849fe96a42e7aeca9104a18" kind="function"><name>PresFreeButton</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver" kind="interface"><name>Dockers::Drivers::ILaptopDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver_1a3cebcd3a9d217ffc9352d1c7fee918b2" kind="function"><name>FreeDocksForAndroid</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_radar_driver" kind="interface"><name>Dockers::Drivers::IRadarDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1adc7f1704eff99f2c7280e50ee969a128" kind="function"><name>Init</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1a5c49b505465968ea96c88210d6f4f654" kind="function"><name>InformShipsToControlPoint</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_scan_driver" kind="interface"><name>Dockers::Drivers::IScanDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_scan_driver_1a157aa4c68a44f884b410b76be7cefca1" kind="function"><name>ScanStore</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_laptop_driver" kind="class"><name>Dockers::Drivers::LaptopDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_laptop_driver_1adcda0a3b645e4cab334ec617499c7521" kind="function"><name>FreeDocksForAndroid</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_radar_driver" kind="class"><name>Dockers::Drivers::RadarDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a9ddcaf39fa32ad03368bde9401d30484" kind="variable"><name>timer</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a3f6dbde115b405c1683ec17a8b64878d" kind="variable"><name>Ships</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1adc51bdea68d249a6798ea726582d25a3" kind="function"><name>Init</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1aeeb9d69f7d148fc890ad50ad1a7f9f1a" kind="function"><name>InformShipsToControlPoint</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1ad46b0bd4f39c3eac2bb1d8b180786369" kind="function"><name>SetShipsUnderView</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1ad1ab14b8d540fc26a48b7f57f4cd4e43" kind="function"><name>Timer_Elapsed</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a9154e8ca84fd13bc5dfacc4548ecc32e" kind="function"><name>ScanForShips</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a2583d4ae58ccce31da5c0b10eb84ab3b" kind="function"><name>getRandomName</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_scan_driver" kind="class"><name>Dockers::Drivers::ScanDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a8658b7f8439c7133bc64802bd7d0486c" kind="function"><name>ScanStore</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae13299757a3c4858e4cc6794e40ceee0" kind="function"><name>printDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" kind="function"><name>printAndroids</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" kind="function"><name>printDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a9ea72f33ce6153898989684fa3046f53" kind="function"><name>newLine</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1aaa180cf95a91af85698264d8c81b378f" kind="function"><name>printLine</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1aaa06d254c7767c12642c79b1f3ea1fcf" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="namespace_dockers" kind="namespace"><name>Dockers</name>
+  </compound>
+  <compound refid="namespace_dockers_1_1_drivers" kind="namespace"><name>Dockers::Drivers</name>
+  </compound>
+  <compound refid="namespace_dockers_1_1_library_1_1_d_t_os" kind="namespace"><name>Dockers::Library::DTOs</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_control_point_driver_8cs" kind="file"><name>ControlPointDriver.cs</name>
+  </compound>
+  <compound refid="_dock_driver_8cs" kind="file"><name>DockDriver.cs</name>
+  </compound>
+  <compound refid="_docker_driver_8cs" kind="file"><name>DockerDriver.cs</name>
+  </compound>
+  <compound refid="_exo_android_driver_8cs" kind="file"><name>ExoAndroidDriver.cs</name>
+  </compound>
+  <compound refid="_laptop_driver_8cs" kind="file"><name>LaptopDriver.cs</name>
+  </compound>
+  <compound refid="_radar_driver_8cs" kind="file"><name>RadarDriver.cs</name>
+  </compound>
+  <compound refid="_scan_driver_8cs" kind="file"><name>ScanDriver.cs</name>
+  </compound>
+  <compound refid="_i_control_point_driver_8cs" kind="file"><name>IControlPointDriver.cs</name>
+  </compound>
+  <compound refid="_i_dock_driver_8cs" kind="file"><name>IDockDriver.cs</name>
+  </compound>
+  <compound refid="_i_docker_driver_8cs" kind="file"><name>IDockerDriver.cs</name>
+  </compound>
+  <compound refid="_i_exo_android_driver_8cs" kind="file"><name>IExoAndroidDriver.cs</name>
+  </compound>
+  <compound refid="_i_laptop_driver_8cs" kind="file"><name>ILaptopDriver.cs</name>
+  </compound>
+  <compound refid="_i_radar_driver_8cs" kind="file"><name>IRadarDriver.cs</name>
+  </compound>
+  <compound refid="_i_scan_driver_8cs" kind="file"><name>IScanDriver.cs</name>
+  </compound>
+  <compound refid="dir_e6bb53534ac0e427887cf7a94c0c004e" kind="dir"><name>C:</name>
+  </compound>
+  <compound refid="dir_0c4b63530bf171f39225b67c8bb0b0e1" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library</name>
+  </compound>
+  <compound refid="dir_66a549e931115084f2ea2147f3993fca" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers</name>
+  </compound>
+  <compound refid="dir_87a7506e14055eeacdf95a6e29d14d00" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations</name>
+  </compound>
+  <compound refid="dir_4677faf6dba720d465c327f188865bca" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces</name>
+  </compound>
+  <compound refid="dir_e796c72ccf9cd4644479c0d2acf7d6d9" kind="dir"><name>C:/Users/METHOD</name>
+  </compound>
+  <compound refid="dir_d16c0a596d065c5970676ed6057dc78f" kind="dir"><name>C:/Users/METHOD/source/repos</name>
+  </compound>
+  <compound refid="dir_f74c2d4c0e081c098cdb41ddce7df3ca" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder</name>
+  </compound>
+  <compound refid="dir_37e5e735791c02a1ef3a3e79fdd77e25" kind="dir"><name>C:/Users/METHOD/source</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

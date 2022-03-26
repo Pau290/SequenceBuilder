@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d05d446629a945b29db71cc2a45fbfa7" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations</compoundname>
+    <innerfile refid="_async_func_builder_8cs">AsyncFuncBuilder.cs</innerfile>
+    <innerfile refid="_async_func_builder2_8cs">AsyncFuncBuilder2.cs</innerfile>
+    <innerfile refid="_task_wrapper_8cs">TaskWrapper.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/"/>
+  </compounddef>
+</doxygen>

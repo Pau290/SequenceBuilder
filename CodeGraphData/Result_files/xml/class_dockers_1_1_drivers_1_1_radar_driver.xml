@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_drivers_1_1_radar_driver" kind="class" prot="public">
+    <compoundname>Dockers::Drivers::RadarDriver</compoundname>
+    <basecompoundref refid="interface_dockers_1_1_drivers_1_1_i_radar_driver" prot="public" virt="non-virtual">Dockers.Drivers.IRadarDriver</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_drivers_1_1_radar_driver_1a9ddcaf39fa32ad03368bde9401d30484" prot="private" static="yes" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Dockers.Drivers.RadarDriver.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="12" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_drivers_1_1_radar_driver_1a3f6dbde115b405c1683ec17a8b64878d" prot="private" static="no" mutable="no">
+        <type>List&lt; Ship &gt;</type>
+        <definition>List&lt;Ship&gt; Dockers.Drivers.RadarDriver.Ships</definition>
+        <argsstring></argsstring>
+        <name>Ships</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="14" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_radar_driver_1adc51bdea68d249a6798ea726582d25a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.RadarDriver.Init</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>Init</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1adc7f1704eff99f2c7280e50ee969a128">Init</reimplements>
+        <param>
+          <type>ControlPoint</type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Inits the control point radar </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="16" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_radar_driver_1aeeb9d69f7d148fc890ad50ad1a7f9f1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.RadarDriver.InformShipsToControlPoint</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>InformShipsToControlPoint</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1a5c49b505465968ea96c88210d6f4f654">InformShipsToControlPoint</reimplements>
+        <param>
+          <type>ControlPoint</type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Sets the results Ship to the control point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="50" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_radar_driver_1ad46b0bd4f39c3eac2bb1d8b180786369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.RadarDriver.SetShipsUnderView</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetShipsUnderView</name>
+        <param>
+          <type>ControlPoint</type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="59" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="59" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_radar_driver_1ad1ab14b8d540fc26a48b7f57f4cd4e43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.RadarDriver.Timer_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>Timer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="26" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_radar_driver_1a9154e8ca84fd13bc5dfacc4548ecc32e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.RadarDriver.ScanForShips</definition>
+        <argsstring>()</argsstring>
+        <name>ScanForShips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="33" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="33" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_radar_driver_1a2583d4ae58ccce31da5c0b10eb84ab3b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Dockers.Drivers.RadarDriver.getRandomName</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="77" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="77" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>IRadarDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_radar_driver"/>
+      </node>
+      <node id="46">
+        <label>Dockers.Drivers.RadarDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_radar_driver"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>IRadarDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_radar_driver"/>
+      </node>
+      <node id="48">
+        <label>Dockers.Drivers.RadarDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_radar_driver"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="50">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/RadarDriver.cs" bodystart="10" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a2583d4ae58ccce31da5c0b10eb84ab3b" prot="private" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>getRandomName</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1aeeb9d69f7d148fc890ad50ad1a7f9f1a" prot="public" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>InformShipsToControlPoint</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1adc51bdea68d249a6798ea726582d25a3" prot="public" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>Init</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a9154e8ca84fd13bc5dfacc4548ecc32e" prot="private" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>ScanForShips</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1ad46b0bd4f39c3eac2bb1d8b180786369" prot="public" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>SetShipsUnderView</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a3f6dbde115b405c1683ec17a8b64878d" prot="private" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>Ships</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a9ddcaf39fa32ad03368bde9401d30484" prot="private" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>timer</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1ad1ab14b8d540fc26a48b7f57f4cd4e43" prot="private" virt="non-virtual"><scope>Dockers::Drivers::RadarDriver</scope><name>Timer_Elapsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

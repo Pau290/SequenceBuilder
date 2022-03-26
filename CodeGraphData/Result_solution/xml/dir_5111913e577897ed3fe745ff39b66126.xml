@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5111913e577897ed3fe745ff39b66126" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs</compoundname>
+    <innerfile refid="_context_8cs">Context.cs</innerfile>
+    <innerfile refid="_control_point_8cs">ControlPoint.cs</innerfile>
+    <innerfile refid="_dock_8cs">Dock.cs</innerfile>
+    <innerfile refid="_docker_8cs">Docker.cs</innerfile>
+    <innerfile refid="_exo_android_8cs">ExoAndroid.cs</innerfile>
+    <innerfile refid="_good_8cs">Good.cs</innerfile>
+    <innerfile refid="_ship_8cs">Ship.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/"/>
+  </compounddef>
+</doxygen>

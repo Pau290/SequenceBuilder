@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_drivers_1_1_exo_android_driver" kind="class" prot="public">
+    <compoundname>Dockers::Drivers::ExoAndroidDriver</compoundname>
+    <basecompoundref refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver" prot="public" virt="non-virtual">Dockers.Drivers.IExoAndroidDriver</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_drivers_1_1_exo_android_driver_1aae85cd955a6e710072152aec40f94da4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver" kindref="compound">ILaptopDriver</ref></type>
+        <definition>readonly ILaptopDriver Dockers.Drivers.ExoAndroidDriver.laptopDriver</definition>
+        <argsstring></argsstring>
+        <name>laptopDriver</name>
+        <initializer>= new <ref refid="class_dockers_1_1_drivers_1_1_laptop_driver" kindref="compound">LaptopDriver</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_exo_android_driver_1afafc15105c193f4846da71e6271a60a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.ExoAndroidDriver.TryReserveDock</definition>
+        <argsstring>(ExoAndroid exoAndroid, Dock dock)</argsstring>
+        <name>TryReserveDock</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a07d6ec68422df27d859db68ab1578993">TryReserveDock</reimplements>
+        <param>
+          <type>ExoAndroid</type>
+          <declname>exoAndroid</declname>
+        </param>
+        <param>
+          <type>Dock</type>
+          <declname>dock</declname>
+        </param>
+        <briefdescription>
+<para>Try reserve dock for exo android </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exoAndroid</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dock</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="13" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="13" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_exo_android_driver_1a4aa0d206964b6f377576d16800bb7a5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.ExoAndroidDriver.UnloadGoods</definition>
+        <argsstring>(ExoAndroid exoAndroid, List&lt; Good &gt; goods)</argsstring>
+        <name>UnloadGoods</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a71f031a602d49da1ee1750fec38ee44a">UnloadGoods</reimplements>
+        <param>
+          <type>ExoAndroid</type>
+          <declname>exoAndroid</declname>
+        </param>
+        <param>
+          <type>List&lt; Good &gt;</type>
+          <declname>goods</declname>
+        </param>
+        <briefdescription>
+<para>Unloads the goods </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exoAndroid</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>goods</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="30" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="30" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab56285c0515d29d52d77b312f21a72e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task Dockers.Drivers.ExoAndroidDriver.FreeDocks</definition>
+        <argsstring>(ExoAndroid exoAndroid, List&lt; Good &gt; goods)</argsstring>
+        <name>FreeDocks</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a3a5744e5d9b5b64db9f0f9a45c938d62">FreeDocks</reimplements>
+        <param>
+          <type>ExoAndroid</type>
+          <declname>exoAndroid</declname>
+        </param>
+        <param>
+          <type>List&lt; Good &gt;</type>
+          <declname>goods</declname>
+        </param>
+        <briefdescription>
+<para>Frees the docks </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exoAndroid</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>goods</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="42" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_exo_android_driver_1a632bde30d2c1a07496b5af03b4ccf07e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.ExoAndroidDriver.PresFreeButton</definition>
+        <argsstring>(ExoAndroid exoAndroid)</argsstring>
+        <name>PresFreeButton</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1aec3b20999849fe96a42e7aeca9104a18">PresFreeButton</reimplements>
+        <param>
+          <type>ExoAndroid</type>
+          <declname>expAndroid</declname>
+        </param>
+        <briefdescription>
+<para>Pres free button </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>expAndroid</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="47" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="47" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab6f1f81b6b71e51a41ba2860ac5ae996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.ExoAndroidDriver.SearchForGoods</definition>
+        <argsstring>(ExoAndroid android)</argsstring>
+        <name>SearchForGoods</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a339a6e7d748f08b3320123bb1041b306">SearchForGoods</reimplements>
+        <param>
+          <type>ExoAndroid</type>
+          <declname>exoAndroid</declname>
+        </param>
+        <briefdescription>
+<para>Search for goods </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exoAndroid</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="62" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="62" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_exo_android_driver_1a0a4c10cbf7f6350bd0c0207ca2cc729f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; bool &gt;</type>
+        <definition>Task&lt;bool&gt; Dockers.Drivers.ExoAndroidDriver.SearchForStore</definition>
+        <argsstring>(ExoAndroid android)</argsstring>
+        <name>SearchForStore</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a6df869c30f51fa20a1b993b8085588fd">SearchForStore</reimplements>
+        <param>
+          <type>ExoAndroid</type>
+          <declname>android</declname>
+        </param>
+        <briefdescription>
+<para>Search for store </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>android</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="77" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="77" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>IExoAndroidDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver"/>
+      </node>
+      <node id="16">
+        <label>Dockers.Drivers.ExoAndroidDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_exo_android_driver"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>IExoAndroidDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver"/>
+      </node>
+      <node id="20">
+        <label>Dockers.Drivers.ILaptopDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver"/>
+      </node>
+      <node id="18">
+        <label>Dockers.Drivers.ExoAndroidDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_exo_android_driver"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>laptopDriver</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ExoAndroidDriver.cs" bodystart="9" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab56285c0515d29d52d77b312f21a72e2" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ExoAndroidDriver</scope><name>FreeDocks</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1aae85cd955a6e710072152aec40f94da4" prot="private" virt="non-virtual"><scope>Dockers::Drivers::ExoAndroidDriver</scope><name>laptopDriver</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a632bde30d2c1a07496b5af03b4ccf07e" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ExoAndroidDriver</scope><name>PresFreeButton</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab6f1f81b6b71e51a41ba2860ac5ae996" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ExoAndroidDriver</scope><name>SearchForGoods</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a0a4c10cbf7f6350bd0c0207ca2cc729f" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ExoAndroidDriver</scope><name>SearchForStore</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1afafc15105c193f4846da71e6271a60a1" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ExoAndroidDriver</scope><name>TryReserveDock</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a4aa0d206964b6f377576d16800bb7a5d" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ExoAndroidDriver</scope><name>UnloadGoods</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

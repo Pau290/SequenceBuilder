@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_library_1_1_d_t_os_1_1_context" kind="class" prot="public">
+    <compoundname>Dockers::Library::DTOs::Context</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a03490701ca831dc50c2adadf9e914842" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+        <definition>ControlPoint Dockers.Library.DTOs.Context.ControlPoint</definition>
+        <argsstring></argsstring>
+        <name>ControlPoint</name>
+        <briefdescription>
+<para>Control Point with <ref refid="namespace_dockers" kindref="compound">Dockers</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="34" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a9871a9b0ab203159cfae067cbdee81f2" prot="private" static="yes" mutable="no">
+        <type><ref refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver" kindref="compound">IExoAndroidDriver</ref></type>
+        <definition>IExoAndroidDriver Dockers.Library.DTOs.Context.androidDriver</definition>
+        <argsstring></argsstring>
+        <name>androidDriver</name>
+        <briefdescription>
+<para><ref refid="namespace_dockers_1_1_drivers" kindref="compound">Drivers</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="41" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a34d9f45c56e9939c942091c8cd973c5c" prot="private" static="yes" mutable="no">
+        <type><ref refid="interface_dockers_1_1_drivers_1_1_i_dock_driver" kindref="compound">IDockDriver</ref></type>
+        <definition>IDockDriver Dockers.Library.DTOs.Context.dockDriver</definition>
+        <argsstring></argsstring>
+        <name>dockDriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="43" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a7dca3dc68d4d0a8879c6512dfa3bed9b" prot="private" static="yes" mutable="no">
+        <type><ref refid="interface_dockers_1_1_drivers_1_1_i_scan_driver" kindref="compound">IScanDriver</ref></type>
+        <definition>IScanDriver Dockers.Library.DTOs.Context.scaner</definition>
+        <argsstring></argsstring>
+        <name>scaner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="45" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ad21b508dd19f497ac6c1d088eaff86ca" prot="private" static="yes" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Dockers.Library.DTOs.Context.timerInit</definition>
+        <argsstring></argsstring>
+        <name>timerInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="57" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1acb0a5f9ca21b21cac928a620e7b59a54" prot="private" static="yes" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Dockers.Library.DTOs.Context.timerKeep</definition>
+        <argsstring></argsstring>
+        <name>timerKeep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="58" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a6305c7fcb92a851d1155e695e7653af1" prot="private" static="yes" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Dockers.Library.DTOs.Context.timerReport</definition>
+        <argsstring></argsstring>
+        <name>timerReport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="60" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ac9fc55bfd5b5f394a4a4467277a53ce2" prot="private" static="yes" mutable="no">
+        <type>Func&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref>, double &gt;</type>
+        <definition>Func&lt;ExoAndroid, double&gt; Dockers.Library.DTOs.Context.getLoad</definition>
+        <argsstring></argsstring>
+        <name>getLoad</name>
+        <initializer>= (android) =&gt;
+            android.CarryGoods.Any()
+            ? android.CarryGoods.Sum(good =&gt; good.Weight)
+            : 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="397" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1aef3f05a0051c2d3b4207d14ae4bee3e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.SetContext</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetContext</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set the Control Point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="52" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a7631beede2da0cf2711eca384ddebd28" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.BeginAutoOrganize</definition>
+        <argsstring>()</argsstring>
+        <name>BeginAutoOrganize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="62" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="62" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a468212d49999631c3482a531a3d3053f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.TimerReport_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>TimerReport_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="81" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ae67fba75930ab667710012d2edacf0e7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.Timer_Init_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>Timer_Init_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="87" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="87" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a976aff469de36a7f9adc5e5d505c3fb3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.TimerKeep_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>TimerKeep_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="102" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="102" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a94cb8284544241e8837b64d02e3f04a8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>Init </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="123" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="123" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ae2d0fe10fe8561c5da125e4a09d6cdb0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.InitIncomes</definition>
+        <argsstring>()</argsstring>
+        <name>InitIncomes</name>
+        <briefdescription>
+<para>Init incomes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="139" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="139" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a612bf2217ec6ba11bf5294d304925f39" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.OrganizeExoAndroids</definition>
+        <argsstring>()</argsstring>
+        <name>OrganizeExoAndroids</name>
+        <briefdescription>
+<para>Search for goods and store </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="163" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="163" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1adf1cdee69338e09bec7928d7083588bd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.ReportAndroidsInSearchOfGood</definition>
+        <argsstring>()</argsstring>
+        <name>ReportAndroidsInSearchOfGood</name>
+        <briefdescription>
+<para>Reports androids still in search </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="184" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="184" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a096aa85064f01224ce6dcf089c78a4d3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tuple&lt; M, S, R &gt;</type>
+        <definition>static Tuple&lt;M, S, R&gt; Dockers.Library.DTOs.Context.BuildTuple&lt; M, S, R &gt;</definition>
+        <argsstring>(M m, S s, R r)</argsstring>
+        <name>BuildTuple&lt; M, S, R &gt;</name>
+        <param>
+          <type>M</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>R</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Builds a 3t tuple </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>M</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>R</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="215" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ac3dd1e31cd6ced186908ed39a9ecf415" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.BeginDockins</definition>
+        <argsstring>()</argsstring>
+        <name>BeginDockins</name>
+        <briefdescription>
+<para>Begin load the goods </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="224" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="224" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a1cc3e1ed1c57837b4c084fa999dc4972" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.LoadTheGoods</definition>
+        <argsstring>(List&lt; Tuple&lt; Docker, List&lt; ExoAndroid &gt;, List&lt; Ship &gt;&gt;&gt; dockers)</argsstring>
+        <name>LoadTheGoods</name>
+        <param>
+          <type>List&lt; Tuple&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker" kindref="compound">Docker</ref>, List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref> &gt;, List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref> &gt;&gt;&gt;</type>
+          <declname>dockers</declname>
+        </param>
+        <briefdescription>
+<para>Load the goods in parallel </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dockers</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="243" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="243" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a3559de4ef81a93e18e47901db31e1303" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.AndroidsBeginUnload</definition>
+        <argsstring>(List&lt; ExoAndroid &gt; androids)</argsstring>
+        <name>AndroidsBeginUnload</name>
+        <param>
+          <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref> &gt;</type>
+          <declname>androids</declname>
+        </param>
+        <briefdescription>
+<para>Unload the goods in parallel </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>androids</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="261" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="261" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1aae211bb1221f8c0e49666e909a620900" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.tryReserveDocks</definition>
+        <argsstring>(ExoAndroid android, List&lt; Dock &gt; docks_open)</argsstring>
+        <name>tryReserveDocks</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref></type>
+          <declname>android</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kindref="compound">Dock</ref> &gt;</type>
+          <declname>docks_open</declname>
+        </param>
+        <briefdescription>
+<para>Try reserve docks </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>android</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>docks_open</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="303" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="303" bodyend="338"/>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a92ac8188e19a2522a7f9b725606e1c0b" compoundref="_dock_8cs" startline="34">Dockers.Library.DTOs.Dock.Id</references>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a3d3548416046ac5b15961833458d953c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.AndroidUnloads</definition>
+        <argsstring>(ExoAndroid android)</argsstring>
+        <name>AndroidUnloads</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref></type>
+          <declname>android</declname>
+        </param>
+        <briefdescription>
+<para>Android unload </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>android</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="345" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="345" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a225e7c1393e5dce61d73e29d619a6265" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.DockerLoadsTheGoods</definition>
+        <argsstring>(Docker docker, List&lt; ExoAndroid &gt; androids, List&lt; Ship &gt; ships)</argsstring>
+        <name>DockerLoadsTheGoods</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker" kindref="compound">Docker</ref></type>
+          <declname>docker</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref> &gt;</type>
+          <declname>androids</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref> &gt;</type>
+          <declname>ships</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker" kindref="compound">Docker</ref> load the goods </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>docker</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>androids</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ships</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="378" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="378" bodyend="395"/>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a1cc3431c61b0a0ab8e9afafc5218a53f" compoundref="_ship_8cs" startline="24">Dockers.Library.DTOs.Ship.Goods</references>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a8d2b82271c44cd478b2bda69ef9b9471" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.takeGoodsUntilLoaded</definition>
+        <argsstring>(ExoAndroid android, List&lt; Good &gt; goods)</argsstring>
+        <name>takeGoodsUntilLoaded</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref></type>
+          <declname>android</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref> &gt;</type>
+          <declname>goods</declname>
+        </param>
+        <briefdescription>
+<para>take goods until loaded </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>android</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>goods</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="407" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="407" bodyend="431"/>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1abb8c9e8f435a1055fcfa7ead56cd0809" compoundref="_good_8cs" startline="18">Dockers.Library.DTOs.Good.Weight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a6b5af800e915be9c13ef44440b5b07f4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.SearchForGoods</definition>
+        <argsstring>(string dockerName, List&lt; ExoAndroid &gt; androids)</argsstring>
+        <name>SearchForGoods</name>
+        <param>
+          <type>string</type>
+          <declname>dockerName</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref> &gt;</type>
+          <declname>androids</declname>
+        </param>
+        <briefdescription>
+<para>Search for goods </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dockerName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>androids</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="439" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="439" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a1bfbcc453c09f77452f4fd9b2a85bcb8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dockers.Library.DTOs.Context.SearchForStore</definition>
+        <argsstring>(string dockerName, List&lt; ExoAndroid &gt; androids)</argsstring>
+        <name>SearchForStore</name>
+        <param>
+          <type>string</type>
+          <declname>dockerName</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref> &gt;</type>
+          <declname>androids</declname>
+        </param>
+        <briefdescription>
+<para>Search for store </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dockerName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>androids</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="460" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="460" bodyend="473"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Arrezife Software 2020 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>Dockers.Drivers.IExoAndroidDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver"/>
+      </node>
+      <node id="1">
+        <label>Dockers.Library.DTOs.Context</label>
+        <link refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>dockDriver</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>androidDriver</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>scaner</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>timerInit</edgelabel>
+          <edgelabel>timerReport</edgelabel>
+          <edgelabel>timerKeep</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Dockers.Drivers.IScanDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_scan_driver"/>
+      </node>
+      <node id="2">
+        <label>Dockers.Drivers.IDockDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_dock_driver"/>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="14" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" bodystart="13" bodyend="474"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a9871a9b0ab203159cfae067cbdee81f2" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>androidDriver</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a3559de4ef81a93e18e47901db31e1303" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>AndroidsBeginUnload</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a3d3548416046ac5b15961833458d953c" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>AndroidUnloads</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a7631beede2da0cf2711eca384ddebd28" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>BeginAutoOrganize</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ac3dd1e31cd6ced186908ed39a9ecf415" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>BeginDockins</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a096aa85064f01224ce6dcf089c78a4d3" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>BuildTuple&lt; M, S, R &gt;</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a03490701ca831dc50c2adadf9e914842" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>ControlPoint</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a34d9f45c56e9939c942091c8cd973c5c" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>dockDriver</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a225e7c1393e5dce61d73e29d619a6265" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>DockerLoadsTheGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ac9fc55bfd5b5f394a4a4467277a53ce2" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>getLoad</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a94cb8284544241e8837b64d02e3f04a8" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>Init</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ae2d0fe10fe8561c5da125e4a09d6cdb0" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>InitIncomes</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a1cc3e1ed1c57837b4c084fa999dc4972" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>LoadTheGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a612bf2217ec6ba11bf5294d304925f39" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>OrganizeExoAndroids</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1adf1cdee69338e09bec7928d7083588bd" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>ReportAndroidsInSearchOfGood</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a7dca3dc68d4d0a8879c6512dfa3bed9b" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>scaner</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a6b5af800e915be9c13ef44440b5b07f4" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>SearchForGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a1bfbcc453c09f77452f4fd9b2a85bcb8" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>SearchForStore</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1aef3f05a0051c2d3b4207d14ae4bee3e9" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>SetContext</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a8d2b82271c44cd478b2bda69ef9b9471" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>takeGoodsUntilLoaded</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ae67fba75930ab667710012d2edacf0e7" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>Timer_Init_Elapsed</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ad21b508dd19f497ac6c1d088eaff86ca" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>timerInit</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1acb0a5f9ca21b21cac928a620e7b59a54" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>timerKeep</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a976aff469de36a7f9adc5e5d505c3fb3" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>TimerKeep_Elapsed</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a6305c7fcb92a851d1155e695e7653af1" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>timerReport</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a468212d49999631c3482a531a3d3053f" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>TimerReport_Elapsed</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1aae211bb1221f8c0e49666e909a620900" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Context</scope><name>tryReserveDocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

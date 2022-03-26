@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_datasource_1_1_ship_datasource" kind="class" prot="public">
+    <compoundname>Dockers::Datasource::ShipDatasource</compoundname>
+    <basecompoundref refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource" prot="public" virt="non-virtual">Dockers.Datasource.IShipDatasource</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_datasource_1_1_ship_datasource_1a0d1ea2e34ac816c0a80f99b6aa408f20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Ship&gt; &gt; Dockers.Datasource.ShipDatasource.GetShips</definition>
+        <argsstring>()</argsstring>
+        <name>GetShips</name>
+        <reimplements refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource_1ad5a3f35e2faabb5356a352eff69a55cd">GetShips</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ShipDatasource.cs" line="12" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ShipDatasource.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_datasource_1_1_ship_datasource_1ad7bbc4c7161e3ebd16c2d6abdf3e18c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref></type>
+        <definition>Ship Dockers.Datasource.ShipDatasource.getShip</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getShip</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ShipDatasource.cs" line="23" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ShipDatasource.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="125">
+        <label>Dockers.Datasource.ShipDatasource</label>
+        <link refid="class_dockers_1_1_datasource_1_1_ship_datasource"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>IShipDatasource</label>
+        <link refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="127">
+        <label>Dockers.Datasource.ShipDatasource</label>
+        <link refid="class_dockers_1_1_datasource_1_1_ship_datasource"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>IShipDatasource</label>
+        <link refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ShipDatasource.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ShipDatasource.cs" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_datasource_1_1_ship_datasource_1ad7bbc4c7161e3ebd16c2d6abdf3e18c9" prot="private" virt="non-virtual"><scope>Dockers::Datasource::ShipDatasource</scope><name>getShip</name></member>
+      <member refid="class_dockers_1_1_datasource_1_1_ship_datasource_1a0d1ea2e34ac816c0a80f99b6aa408f20" prot="public" virt="non-virtual"><scope>Dockers::Datasource::ShipDatasource</scope><name>GetShips</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

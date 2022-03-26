@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f0b2d5c0ddf8b7c787660ed915ca0d6e" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Interfaces</compoundname>
+    <innerfile refid="_i_async_func_builder_8cs">IAsyncFuncBuilder.cs</innerfile>
+    <innerfile refid="_i_async_func_builder2_8cs">IAsyncFuncBuilder2.cs</innerfile>
+    <innerfile refid="_i_task_wrapper_8cs">ITaskWrapper.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Interfaces/"/>
+  </compounddef>
+</doxygen>

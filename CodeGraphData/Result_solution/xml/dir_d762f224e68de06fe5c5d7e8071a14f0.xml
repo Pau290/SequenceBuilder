@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d762f224e68de06fe5c5d7e8071a14f0" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource</compoundname>
+    <innerdir refid="dir_473dc1b3bf18d9a809c3e1c5c1e91621">C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations</innerdir>
+    <innerdir refid="dir_e9fe523160996d0642697285ca6f1c8b">C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Interfaces</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/"/>
+  </compounddef>
+</doxygen>

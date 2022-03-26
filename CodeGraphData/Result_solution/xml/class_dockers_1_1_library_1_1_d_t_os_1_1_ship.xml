@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kind="class" prot="public">
+    <compoundname>Dockers::Library::DTOs::Ship</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a22f13f9ae15b5f93947159fd8b6b9107" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Guid</type>
+        <definition>Guid Dockers.Library.DTOs.Ship.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="16" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a27c2f0ede534a1c1ac20f632ae45f0e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Dockers.Library.DTOs.Ship.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="18" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a7ceed64e2a887ffb3cf89bb0798b6686" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Guid</type>
+        <definition>Guid Dockers.Library.DTOs.Ship.DockerId</definition>
+        <argsstring></argsstring>
+        <name>DockerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="22" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a1cc3431c61b0a0ab8e9afafc5218a53f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref> &gt;</type>
+        <definition>List&lt;Good&gt; Dockers.Library.DTOs.Ship.Goods</definition>
+        <argsstring></argsstring>
+        <name>Goods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="24" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a225e7c1393e5dce61d73e29d619a6265" compoundref="_context_8cs" startline="378" endline="395">Dockers.Library.DTOs.Context.DockerLoadsTheGoods</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a92bade4efbb09715f592b4e9ff835fad" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.Ship.IsInDocker</definition>
+        <argsstring></argsstring>
+        <name>IsInDocker</name>
+        <initializer>=&gt; this.DockerId.HasValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="20" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a8ea40cbe25df6a4d78861b570194c7b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Library.DTOs.Ship.Ship</definition>
+        <argsstring>(Guid id, string name)</argsstring>
+        <name>Ship</name>
+        <param>
+          <type>Guid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="9" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1ac6ea6224556c13d611520ef40eada937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Dockers.Library.DTOs.Ship.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="26" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a64976399b834b5a30e33e927b4b03e48" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref> &gt;</type>
+        <definition>List&lt;Good&gt; Dockers.Library.DTOs.Ship.getGoods</definition>
+        <argsstring>(Guid shipId)</argsstring>
+        <name>getGoods</name>
+        <param>
+          <type>Guid</type>
+          <declname>shipId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="31" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="31" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a8c2fe60653528cb2897f334924d114c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref></type>
+        <definition>Good Dockers.Library.DTOs.Ship.getGood</definition>
+        <argsstring>(Guid shipId, double weight)</argsstring>
+        <name>getGood</name>
+        <param>
+          <type>Guid</type>
+          <declname>shipId</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="47" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" line="8" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Ship.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a7ceed64e2a887ffb3cf89bb0798b6686" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>DockerId</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a8c2fe60653528cb2897f334924d114c3" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>getGood</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a64976399b834b5a30e33e927b4b03e48" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>getGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a1cc3431c61b0a0ab8e9afafc5218a53f" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>Goods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a22f13f9ae15b5f93947159fd8b6b9107" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>Id</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a92bade4efbb09715f592b4e9ff835fad" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>IsInDocker</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a27c2f0ede534a1c1ac20f632ae45f0e8" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>Name</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a8ea40cbe25df6a4d78861b570194c7b8" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>Ship</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1ac6ea6224556c13d611520ef40eada937" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Ship</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_drivers_1_1_scan_driver" kind="class" prot="public">
+    <compoundname>Dockers::Drivers::ScanDriver</compoundname>
+    <basecompoundref refid="interface_dockers_1_1_drivers_1_1_i_scan_driver" prot="public" virt="non-virtual">Dockers.Drivers.IScanDriver</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_scan_driver_1a8658b7f8439c7133bc64802bd7d0486c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.ScanDriver.ScanStore</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>ScanStore</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_scan_driver_1a157aa4c68a44f884b410b76be7cefca1">ScanStore</reimplements>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_scan_driver_1ae13299757a3c4858e4cc6794e40ceee0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.ScanDriver.printDockers</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>printDockers</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="18" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="18" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.ScanDriver.printAndroids</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>printAndroids</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="35" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="35" bodyend="81"/>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a6ef218176bf7229e3b1ef2d4ad4ebd42" compoundref="_exo_android_8cs" startline="44">Dockers.Library.DTOs.ExoAndroid.DockedGoods</references>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a654a295f133f71967c4d1cfb697d2f68" compoundref="_exo_android_8cs" startline="56">Dockers.Library.DTOs.ExoAndroid.DockedWeight</references>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1aaf5f40b2d5b17966fec82df216260a2d" compoundref="_exo_android_8cs" startline="46">Dockers.Library.DTOs.ExoAndroid.LoadedGoods</references>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a933752f76d406f80f0d11d15eec6477e" compoundref="_exo_android_8cs" startline="54">Dockers.Library.DTOs.ExoAndroid.LoadedWeight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.ScanDriver.printDocks</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>printDocks</name>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="83" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="83" bodyend="136"/>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a6ef218176bf7229e3b1ef2d4ad4ebd42" compoundref="_exo_android_8cs" startline="44">Dockers.Library.DTOs.ExoAndroid.DockedGoods</references>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aff8182ed4ae575126c4620a0d4c03e48" compoundref="_dock_8cs" startline="45">Dockers.Library.DTOs.Dock.GoodsHistorial</references>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a92ac8188e19a2522a7f9b725606e1c0b" compoundref="_dock_8cs" startline="34">Dockers.Library.DTOs.Dock.Id</references>
+        <references refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aab395d439556e6f7d719a0786b4a97c5" compoundref="_dock_8cs" startline="26">Dockers.Library.DTOs.Dock.InJobAndroids</references>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_scan_driver_1a9ea72f33ce6153898989684fa3046f53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.ScanDriver.newLine</definition>
+        <argsstring>()</argsstring>
+        <name>newLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="235" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_scan_driver_1aaa180cf95a91af85698264d8c81b378f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.ScanDriver.printLine</definition>
+        <argsstring>(string print)</argsstring>
+        <name>printLine</name>
+        <param>
+          <type>string</type>
+          <declname>print</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="240" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="240" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_scan_driver_1aaa06d254c7767c12642c79b1f3ea1fcf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.ScanDriver.print</definition>
+        <argsstring>(string print)</argsstring>
+        <name>print</name>
+        <param>
+          <type>string</type>
+          <declname>print</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="245" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="245" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="120">
+        <label>IScanDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_scan_driver"/>
+      </node>
+      <node id="119">
+        <label>Dockers.Drivers.ScanDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_scan_driver"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="122">
+        <label>IScanDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_scan_driver"/>
+      </node>
+      <node id="121">
+        <label>Dockers.Drivers.ScanDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_scan_driver"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ScanDriver.cs" bodystart="9" bodyend="249"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a9ea72f33ce6153898989684fa3046f53" prot="private" virt="non-virtual"><scope>Dockers::Drivers::ScanDriver</scope><name>newLine</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1aaa06d254c7767c12642c79b1f3ea1fcf" prot="private" virt="non-virtual"><scope>Dockers::Drivers::ScanDriver</scope><name>print</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" prot="private" virt="non-virtual"><scope>Dockers::Drivers::ScanDriver</scope><name>printAndroids</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae13299757a3c4858e4cc6794e40ceee0" prot="private" virt="non-virtual"><scope>Dockers::Drivers::ScanDriver</scope><name>printDockers</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" prot="private" virt="non-virtual"><scope>Dockers::Drivers::ScanDriver</scope><name>printDocks</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1aaa180cf95a91af85698264d8c81b378f" prot="private" virt="non-virtual"><scope>Dockers::Drivers::ScanDriver</scope><name>printLine</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a8658b7f8439c7133bc64802bd7d0486c" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ScanDriver</scope><name>ScanStore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

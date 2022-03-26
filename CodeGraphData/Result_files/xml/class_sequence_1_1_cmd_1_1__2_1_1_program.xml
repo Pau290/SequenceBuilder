@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequence_1_1_cmd_1_1__2_1_1_program" kind="class" prot="public">
+    <compoundname>Sequence::Cmd::_2::Program</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1a95ff569dc076f1e0188e8e1194c15446" prot="private" static="yes" mutable="no">
+        <type>IControlPointLibrary</type>
+        <definition>IControlPointLibrary Sequence.Cmd._2.Program.library</definition>
+        <argsstring></argsstring>
+        <name>library</name>
+        <initializer>= new <ref refid="class_dockers_1_1_libraries_1_1_control_point_library" kindref="compound">ControlPointLibrary</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="27" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1ac80a06c8920de428101c617ca0e1f2d0" prot="private" static="yes" mutable="no">
+        <type><ref refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver" kindref="compound">IControlPointDriver</ref></type>
+        <definition>IControlPointDriver Sequence.Cmd._2.Program.driver</definition>
+        <argsstring></argsstring>
+        <name>driver</name>
+        <initializer>= new <ref refid="class_dockers_1_1_drivers_1_1_control_point_driver" kindref="compound">ControlPointDriver</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="29" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1a6e063535f569a6f3bfccad243927d034" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequence.Cmd._2.Program.setDockers</definition>
+        <argsstring></argsstring>
+        <name>setDockers</name>
+        <initializer>=&gt; &quot;set dockers&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="106" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1ab4ed5e3407b0033c809c70b5fa2a33a6" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequence.Cmd._2.Program.loadDocks</definition>
+        <argsstring></argsstring>
+        <name>loadDocks</name>
+        <initializer>=&gt; &quot;load docks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="107" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1aa3a681b79be23862f627ae8547e8ba58" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequence.Cmd._2.Program.setupDocks</definition>
+        <argsstring></argsstring>
+        <name>setupDocks</name>
+        <initializer>=&gt; &quot;setup docks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="108" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1a8ea5b5bcb00186fe26baf93446926dac" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequence.Cmd._2.Program.initAndroids</definition>
+        <argsstring></argsstring>
+        <name>initAndroids</name>
+        <initializer>=&gt; &quot;init androids&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="109" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1a3ea7bc8c824b8ad95cc6f84abd55c09b" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequence.Cmd._2.Program.getShips</definition>
+        <argsstring></argsstring>
+        <name>getShips</name>
+        <initializer>=&gt; &quot;get ships&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="110" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1a2f6b81b5eae5159387f90c24b2a16b02" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequence.Cmd._2.Program.freeDockers</definition>
+        <argsstring></argsstring>
+        <name>freeDockers</name>
+        <initializer>=&gt; &quot;free dockers&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="111" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1ace58ecc5934fb0823009b1c2caff0a65" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequence.Cmd._2.Program.initTaskRadar</definition>
+        <argsstring></argsstring>
+        <name>initTaskRadar</name>
+        <initializer>=&gt; &quot;init radar&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="112" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1a119267866b4688bf0eb23c18919833f7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>static async Task Sequence.Cmd._2.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="13" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="13" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1ab03951cf3c58c2f5ae7223279769c3d9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task Sequence.Cmd._2.Program.TestUsability</definition>
+        <argsstring>()</argsstring>
+        <name>TestUsability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="31" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="31" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1a9fbd95e7da0445c3137769e158e03101" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequence.Cmd._2.Program.getInfoRadar</definition>
+        <argsstring>(IAsyncFuncBuilder2&lt; ControlPoint &gt; controlBuilder)</argsstring>
+        <name>getInfoRadar</name>
+        <param>
+          <type>IAsyncFuncBuilder2&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref> &gt;</type>
+          <declname>controlBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="89" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_cmd_1_1__2_1_1_program_1acf847c7e6fb5478b763e5e8fa7c8d8e5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequence.Cmd._2.Program.print</definition>
+        <argsstring>(object @object, ConsoleColor color)</argsstring>
+        <name>print</name>
+        <param>
+          <type>object @</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>ConsoleColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="99" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="99" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="81">
+        <label>Dockers.Drivers.IControlPointDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver"/>
+      </node>
+      <node id="80">
+        <label>Sequence.Cmd._2.Program</label>
+        <link refid="class_sequence_1_1_cmd_1_1__2_1_1_program"/>
+        <childnode refid="81" relation="usage">
+          <edgelabel>driver</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" line="12" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd/Program.cs" bodystart="11" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ac80a06c8920de428101c617ca0e1f2d0" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>driver</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a2f6b81b5eae5159387f90c24b2a16b02" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>freeDockers</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a9fbd95e7da0445c3137769e158e03101" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>getInfoRadar</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a3ea7bc8c824b8ad95cc6f84abd55c09b" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>getShips</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a8ea5b5bcb00186fe26baf93446926dac" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>initAndroids</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ace58ecc5934fb0823009b1c2caff0a65" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>initTaskRadar</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a95ff569dc076f1e0188e8e1194c15446" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>library</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ab4ed5e3407b0033c809c70b5fa2a33a6" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>loadDocks</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a119267866b4688bf0eb23c18919833f7" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>Main</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1acf847c7e6fb5478b763e5e8fa7c8d8e5" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>print</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a6e063535f569a6f3bfccad243927d034" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>setDockers</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1aa3a681b79be23862f627ae8547e8ba58" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>setupDocks</name></member>
+      <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ab03951cf3c58c2f5ae7223279769c3d9" prot="private" virt="non-virtual"><scope>Sequence::Cmd::_2::Program</scope><name>TestUsability</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

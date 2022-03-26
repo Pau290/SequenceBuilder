@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kind="class" prot="public">
+    <compoundname>Dockers::Library::DTOs::Dock</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a4ec56f308c0e763552a769d8d0c9fa77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Dockers.Library.DTOs.Dock.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="22" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a05dec7a6b2382aa3f0fd549dc7865a1e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref></type>
+        <definition>ExoAndroid Dockers.Library.DTOs.Dock.ExoAndroid</definition>
+        <argsstring></argsstring>
+        <name>ExoAndroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="24" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aab395d439556e6f7d719a0786b4a97c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref> &gt;</type>
+        <definition>List&lt;ExoAndroid&gt; Dockers.Library.DTOs.Dock.InJobAndroids</definition>
+        <argsstring></argsstring>
+        <name>InJobAndroids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="26" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" compoundref="_scan_driver_8cs" startline="83" endline="136">Dockers.Drivers.ScanDriver.printDocks</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ae461fe44a6d41ec1406553007871feef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.Dock.IsUnloading</definition>
+        <argsstring></argsstring>
+        <name>IsUnloading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="28" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1af4db79ea31db44089d250a35540fc7a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.Dock.IsReserved</definition>
+        <argsstring></argsstring>
+        <name>IsReserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="32" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a92ac8188e19a2522a7f9b725606e1c0b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Guid</type>
+        <definition>Guid Dockers.Library.DTOs.Dock.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="34" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" compoundref="_scan_driver_8cs" startline="83" endline="136">Dockers.Drivers.ScanDriver.printDocks</referencedby>
+        <referencedby refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1aae211bb1221f8c0e49666e909a620900" compoundref="_context_8cs" startline="303" endline="338">Dockers.Library.DTOs.Context.tryReserveDocks</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a15f8a99bd38b9959924510d6325b33bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.Dock.Ready</definition>
+        <argsstring></argsstring>
+        <name>Ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="36" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a418800b2bf56cddbb3122997d6c5b71b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.Dock.WeightCapacity</definition>
+        <argsstring></argsstring>
+        <name>WeightCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="43" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aff8182ed4ae575126c4620a0d4c03e48" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref> &gt;</type>
+        <definition>List&lt;Good&gt; Dockers.Library.DTOs.Dock.GoodsHistorial</definition>
+        <argsstring></argsstring>
+        <name>GoodsHistorial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="45" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" compoundref="_scan_driver_8cs" startline="83" endline="136">Dockers.Drivers.ScanDriver.printDocks</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ab08a03d0afdb0d12aa9c2ec1b2db4a11" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.Dock.IsBusy</definition>
+        <argsstring></argsstring>
+        <name>IsBusy</name>
+        <initializer>=&gt; this.ExoAndroid != null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="30" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1afafc15105c193f4846da71e6271a60a1" compoundref="_exo_android_driver_8cs" startline="13" endline="27">Dockers.Drivers.ExoAndroidDriver.TryReserveDock</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aef4ebd79ddd99747da0fcbc864de5b10" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Dockers.Library.DTOs.Dock.OpenTimes</definition>
+        <argsstring></argsstring>
+        <name>OpenTimes</name>
+        <initializer>=&gt; this.GoodsHistorial.Count</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="47" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a5d7469dd240b0d33559258c09df2f691" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Library.DTOs.Dock.Dock</definition>
+        <argsstring>(Guid id)</argsstring>
+        <name>Dock</name>
+        <param>
+          <type>Guid</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a898f766223e79f9d0a6285e92e484994" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Library.DTOs.Dock.IsReady</definition>
+        <argsstring>(bool ready)</argsstring>
+        <name>IsReady</name>
+        <param>
+          <type>bool</type>
+          <declname>ready</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="38" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ad75ff481313eea4adc709750a9a07451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Dockers.Library.DTOs.Dock.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="49" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="49" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1abcd914f4de11fbf8b4bc77e47a8ebf89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Dockers.Library.DTOs.Dock.getRandomName</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="82" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="82" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a2e3d797a736c974b203a41df38c01567" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.Dock.getRandomWeightCapacity</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomWeightCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="103" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="103" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Dock.cs" bodystart="9" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a4ec56f308c0e763552a769d8d0c9fa77" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>Description</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a5d7469dd240b0d33559258c09df2f691" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>Dock</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a05dec7a6b2382aa3f0fd549dc7865a1e" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>ExoAndroid</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1abcd914f4de11fbf8b4bc77e47a8ebf89" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>getRandomName</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a2e3d797a736c974b203a41df38c01567" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>getRandomWeightCapacity</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aff8182ed4ae575126c4620a0d4c03e48" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>GoodsHistorial</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a92ac8188e19a2522a7f9b725606e1c0b" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>Id</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aab395d439556e6f7d719a0786b4a97c5" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>InJobAndroids</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ab08a03d0afdb0d12aa9c2ec1b2db4a11" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>IsBusy</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a898f766223e79f9d0a6285e92e484994" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>IsReady</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1af4db79ea31db44089d250a35540fc7a4" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>IsReserved</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ae461fe44a6d41ec1406553007871feef" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>IsUnloading</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aef4ebd79ddd99747da0fcbc864de5b10" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>OpenTimes</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a15f8a99bd38b9959924510d6325b33bf" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>Ready</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ad75ff481313eea4adc709750a9a07451" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>ToString</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a418800b2bf56cddbb3122997d6c5b71b" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Dock</scope><name>WeightCapacity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

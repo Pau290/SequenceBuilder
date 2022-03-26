@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_libraries_1_1_control_point_library" kind="class" prot="public">
+    <compoundname>Dockers::Libraries::ControlPointLibrary</compoundname>
+    <basecompoundref refid="interface_dockers_1_1_libraries_1_1_i_control_point_library" prot="public" virt="non-virtual">Dockers.Libraries.IControlPointLibrary</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_libraries_1_1_control_point_library_1a29de756b6c1587ec674fea1760698fa7" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_dockers_1_1_datasource_1_1_i_control_point_data_source" kindref="compound">IControlPointDataSource</ref></type>
+        <definition>readonly IControlPointDataSource Dockers.Libraries.ControlPointLibrary.controlPointDataSource</definition>
+        <argsstring></argsstring>
+        <name>controlPointDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" line="9" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_libraries_1_1_control_point_library_1a69015be8439ac91ae13e086f85b5dd5b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource" kindref="compound">IShipDatasource</ref></type>
+        <definition>readonly IShipDatasource Dockers.Libraries.ControlPointLibrary.shipDatasource</definition>
+        <argsstring></argsstring>
+        <name>shipDatasource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_libraries_1_1_control_point_library_1ae7577065e04ea8705529bd738acc9ec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Libraries.ControlPointLibrary.ControlPointLibrary</definition>
+        <argsstring>()</argsstring>
+        <name>ControlPointLibrary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" line="13" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_libraries_1_1_control_point_library_1ab3419e76d76c2a5d9bced74c1fff9297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref> &gt;</type>
+        <definition>async Task&lt;ControlPoint&gt; Dockers.Libraries.ControlPointLibrary.GetControlPoint</definition>
+        <argsstring>()</argsstring>
+        <name>GetControlPoint</name>
+        <reimplements refid="interface_dockers_1_1_libraries_1_1_i_control_point_library_1ad277154abf26c5cb6147eb9145b669c7">GetControlPoint</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" line="18" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_libraries_1_1_control_point_library_1a5186d8731acd406e8d01f3aedec564b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Libraries.ControlPointLibrary.GetShips</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>GetShips</name>
+        <reimplements refid="interface_dockers_1_1_libraries_1_1_i_control_point_library_1a574190312c2f8e2704d3d2d54dc931d6">GetShips</reimplements>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" line="25" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" bodystart="25" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>Dockers.Libraries.ControlPointLibrary</label>
+        <link refid="class_dockers_1_1_libraries_1_1_control_point_library"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>IControlPointLibrary</label>
+        <link refid="interface_dockers_1_1_libraries_1_1_i_control_point_library"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="32">
+        <label>Dockers.Libraries.ControlPointLibrary</label>
+        <link refid="class_dockers_1_1_libraries_1_1_control_point_library"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="usage">
+          <edgelabel>controlPointDataSource</edgelabel>
+        </childnode>
+        <childnode refid="35" relation="usage">
+          <edgelabel>shipDatasource</edgelabel>
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Dockers.Datasource.IShipDatasource</label>
+        <link refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource"/>
+      </node>
+      <node id="34">
+        <label>Dockers.Datasource.IControlPointDataSource</label>
+        <link refid="interface_dockers_1_1_datasource_1_1_i_control_point_data_source"/>
+      </node>
+      <node id="33">
+        <label>IControlPointLibrary</label>
+        <link refid="interface_dockers_1_1_libraries_1_1_i_control_point_library"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" line="8" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ControlPointLibrary.cs" bodystart="7" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1a29de756b6c1587ec674fea1760698fa7" prot="private" virt="non-virtual"><scope>Dockers::Libraries::ControlPointLibrary</scope><name>controlPointDataSource</name></member>
+      <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1ae7577065e04ea8705529bd738acc9ec0" prot="public" virt="non-virtual"><scope>Dockers::Libraries::ControlPointLibrary</scope><name>ControlPointLibrary</name></member>
+      <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1ab3419e76d76c2a5d9bced74c1fff9297" prot="public" virt="non-virtual"><scope>Dockers::Libraries::ControlPointLibrary</scope><name>GetControlPoint</name></member>
+      <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1a5186d8731acd406e8d01f3aedec564b4" prot="public" virt="non-virtual"><scope>Dockers::Libraries::ControlPointLibrary</scope><name>GetShips</name></member>
+      <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1a69015be8439ac91ae13e086f85b5dd5b" prot="private" virt="non-virtual"><scope>Dockers::Libraries::ControlPointLibrary</scope><name>shipDatasource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

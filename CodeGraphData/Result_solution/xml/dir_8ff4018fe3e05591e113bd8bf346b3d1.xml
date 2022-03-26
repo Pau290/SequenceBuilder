@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8ff4018fe3e05591e113bd8bf346b3d1" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder</compoundname>
+    <innerdir refid="dir_d05d446629a945b29db71cc2a45fbfa7">C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations</innerdir>
+    <innerdir refid="dir_f0b2d5c0ddf8b7c787660ed915ca0d6e">C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Interfaces</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/"/>
+  </compounddef>
+</doxygen>

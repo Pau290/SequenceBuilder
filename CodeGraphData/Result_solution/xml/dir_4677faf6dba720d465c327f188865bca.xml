@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4677faf6dba720d465c327f188865bca" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces</compoundname>
+    <innerfile refid="_i_control_point_driver_8cs">IControlPointDriver.cs</innerfile>
+    <innerfile refid="_i_dock_driver_8cs">IDockDriver.cs</innerfile>
+    <innerfile refid="_i_docker_driver_8cs">IDockerDriver.cs</innerfile>
+    <innerfile refid="_i_exo_android_driver_8cs">IExoAndroidDriver.cs</innerfile>
+    <innerfile refid="_i_laptop_driver_8cs">ILaptopDriver.cs</innerfile>
+    <innerfile refid="_i_radar_driver_8cs">IRadarDriver.cs</innerfile>
+    <innerfile refid="_i_scan_driver_8cs">IScanDriver.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/"/>
+  </compounddef>
+</doxygen>

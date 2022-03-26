@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4" kind="class"><name>Sequence::Builder::AsyncFuncBuilder2&lt; T &gt;</name>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a33e416f759d263c1e1591a24fa1fd90a" kind="property"><name>Subject</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1ae5f9f296da86949f09669e3effb5cbcd" kind="property"><name>Tasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a70557161151d5e5006b0ed6405a9162b" kind="property"><name>ActionTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1abc857e991d380ba877b001498df6ea7d" kind="property"><name>ParalelTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1abed95d65764f4703e096c18bb6b19e34" kind="property"><name>Conditions</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a2b972e39b517ec4adc40d47c431c3565" kind="property"><name>NotStartedActionTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a8fa14ff0c6d6cceb4dadaff39b84c24b" kind="variable"><name>taskFactory</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a58a114b37f277fbf3005fa85cbeb51fe" kind="variable"><name>taskWrapper</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1afdf0449c54e9b3d11a66d81cabe23ec9" kind="variable"><name>notstarted_tasks_timer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a7bacc59b4e0769a2421ffe172dd66c92" kind="variable"><name>timer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a6f2ec71c3c09c584f1a2fabfc3b5521d" kind="variable"><name>stopTimer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a55b9ded4a9983c9e6dc9eb2d0317abf5" kind="function"><name>GetSubject</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1aa59fd39755e5646a8b13c2a1ac064274" kind="function"><name>AsyncFuncBuilder2</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a7540b1bb10e655c2f0f3468549c7f5c1" kind="function"><name>RunInitialTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1af4d6c1e40299132db44e3542a09971cd" kind="function"><name>AddTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1aa19a3e0b87ab9997e9e36a145f7d738a" kind="function"><name>AddActionTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a39943041190d2e4ac8fb6bafd11e3db9" kind="function"><name>AddActionTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a72fa8768055febec64223b6af47baec2" kind="function"><name>AddAction</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a2163ee23c2757f776eceb6804217420f" kind="function"><name>AddParalelTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a0956c5a0c2f613791c66aef8c4c18dfe" kind="function"><name>AddContinue</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a8454159374bcfc0c47b4b36064b7fde5" kind="function"><name>AddContinueOption</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a6e6b5ece0ea0858244a0e6ea41eb5cee" kind="function"><name>RunWhen</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a4db9c7348bb81375b64a56924aac149d" kind="function"><name>RunAllAndContinue</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a9c350a2d4c0ef065e0de9306ef5a0545" kind="function"><name>RunTaskInline</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a2937ea67ae7d2502a53c0f4b649f0863" kind="function"><name>CheckTaskStatus</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a95bfe45b2455e194360c1af1f08a9a6c" kind="function"><name>CancelTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a33bfb3b070d6221fee6e5b50e2b17083" kind="function"><name>GetTaskForSubjectV2</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1affc13c8294a5e5668c80558394dc2d60" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1ac690721e7803012e462bf1ee4438c000" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a0467881dc7e530be828330e08dbc628c" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a89c8bd7b4c277e91471e70140f3dc32e" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a9916bddfadc26d8d2f2209710fe0867f" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a23a131b0499ef908f6be73de62660d76" kind="function"><name>InitCheckerTimer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a53a9402d266708fac66690c391d8ec6a" kind="function"><name>RunActionTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a33d9b5c0a66c63f1fd80b88a00a0815a" kind="function"><name>AddToNotStartedTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a736c30462b30f94bfb752fac5ad2abab" kind="function"><name>InitTimerNotStartedTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a948220c229fdf7d431c963cda8c87b67" kind="function"><name>Notstarted_tasks_timer_Elapsed</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a0f5abfa2c8d0443f93e0dec957c725af" kind="function"><name>RunNotStartedTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1acdea31c99a06eed5e8e142a472030daa" kind="function"><name>AssertConditions</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a209d55d567ac0400cba72f02981a4bb0" kind="function"><name>StopTimer_Elapsed</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1a74f6b637893c2598f20f15cf1ce6f80d" kind="function"><name>CheckTasksStatus</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1ae9e753b02feb9a0335b7c62e9d492830" kind="function"><name>BuildTuple&lt; M, S &gt;</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1aba05820172a2d7e5f39625a58cf9e321" kind="function"><name>BuildTuple&lt; M, S, R &gt;</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4_1af1bf8752c605da22739b4bd1785f8216" kind="function"><name>print&lt; S &gt;</name></member>
+  </compound>
+  <compound refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4" kind="class"><name>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</name>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a757433a753bf4b23bb81ee44c28c79c5" kind="property"><name>Subject</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aa160e70c9e84fcbc59412767a40dced4" kind="property"><name>Tasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a65534e9bdc4c8a4c0831f1190b6612af" kind="property"><name>ActionTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab2170f87cd87a77a32a2458e1e2ec274" kind="property"><name>ParalelTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ae260441ee6a66b4135de8a39981051b3" kind="property"><name>Conditions</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aaebb20aebacb44d7ccacfb923c011468" kind="property"><name>NotStartedActionTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aec4cc3910b1263d351693a814ab8faf8" kind="variable"><name>taskFactory</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1acb0f87db6b8d9f4fec46189f91adcaf5" kind="variable"><name>taskWrapper</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a38df044e9342b87591f6a3b83bc22b2e" kind="variable"><name>notstarted_tasks_timer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aecb361030b9278a5a68658f39648241e" kind="variable"><name>notStartedRetried</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1afa05b4b417bf2b8aea589830ab13ec8b" kind="variable"><name>timer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4667bd3b8d05ccad4aee8dd038746260" kind="variable"><name>stopTimer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ac32229f0dd188a9d36218cd2f817a5e2" kind="function"><name>GetSubject</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a5fc00e2d3b5e50273bf9ccb23263d86d" kind="function"><name>AsyncFuncBuilder</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adb3d9c109799a02e15ea4edd2b4804a1" kind="function"><name>RunInitialTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aa600b44416b5dd7faf77cf53120f2cd9" kind="function"><name>AddTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a380ed7b62b6f4fa436cea4b41f6b7aba" kind="function"><name>AddActionTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8cbdf4d10e05e60a359309bb1822d7cd" kind="function"><name>AddActionTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a143e3ca57b2c9e081a4b68f8767bfc19" kind="function"><name>AddParalelTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a62cd9896f5b2d9f25e7b96f7975cd71a" kind="function"><name>AddContinue</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a345d5b3bdc22c3a5fe264d42a6daac0f" kind="function"><name>AddContinueOption</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a504013090873e967fdf7995f266b9c94" kind="function"><name>RunWhen</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aef53433d2f6e658cdda03447de1a7a66" kind="function"><name>RunAllAndContinue</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a528fc839ec2f9c37fcf00c5d3f8af5c1" kind="function"><name>RunParalelTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab46b96ad2c22e0c3dbd827e3fa2c3c67" kind="function"><name>RunInParallel</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a767b852fbeee5fe47b66d4f2458acacd" kind="function"><name>RunTaskByIndex</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc9a5e6e75121b68aaad5c53cb25cdf2" kind="function"><name>CheckTaskStatus</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab6290b3229f67e089a42376eeef90b94" kind="function"><name>CancelTask</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a53d12e3bf74f32e2632375d1dee1ad88" kind="function"><name>GetTaskForSubject</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1abc3913c0b4adb1386d6c32c3b7d4b46d" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4268a0a5eb79d2c91ffccd405d31681a" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1affb4cd6ba74af2c4aad794ffbb3305ff" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1abddb1ba279b9579ad57abf444670da80" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a86a24fadb4b31771318fd59d0515663a" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a00a9e85ee394236e848c9a45438927f6" kind="function"><name>InitCheckerTimer</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aaf7a986d80202c023bc35d8de9f0cc54" kind="function"><name>RunTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a9a02635dea836d1ae9163fd31d172e45" kind="function"><name>RunActionTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8068211bc2f7b6ccf8bfa369984a5710" kind="function"><name>AddToNotStartedTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc5ff87ee77bfb3e4b9d31086766d369" kind="function"><name>InitTimerNotStartedTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc71f081bb9c8c4bc3450691ca0c0693" kind="function"><name>Notstarted_tasks_timer_Elapsed</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a6c5bf16c154754fafd1f6fae859fc90a" kind="function"><name>RunNotStartedTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a5da8cac249f583b1d4a19ba0a81f4d77" kind="function"><name>AssertConditions</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a18dac4702125a0551bd1c2a960fc92f5" kind="function"><name>RunAllParalelTasks</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a86507db4628466363010df63d2b70b11" kind="function"><name>RunTasksInParallel</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a0f8d01235c6c29951348833ee1b6f482" kind="function"><name>StopTimer_Elapsed</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ace7b49815de0730907c3f5252bca72d3" kind="function"><name>CheckTasksStatus</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8c05ffa51bf4b68bbbf32b724df1d70e" kind="function"><name>BuildTuple&lt; M, S &gt;</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a43a2da3ff8dd8a74838f8d056272e354" kind="function"><name>BuildTuple&lt; M, S, R &gt;</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4581afc356bcb965c234cb9bdcac9b1b" kind="function"><name>print&lt; S &gt;</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context" kind="class"><name>Dockers::Library::DTOs::Context</name>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a03490701ca831dc50c2adadf9e914842" kind="property"><name>ControlPoint</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a9871a9b0ab203159cfae067cbdee81f2" kind="variable"><name>androidDriver</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a34d9f45c56e9939c942091c8cd973c5c" kind="variable"><name>dockDriver</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a7dca3dc68d4d0a8879c6512dfa3bed9b" kind="variable"><name>scaner</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ad21b508dd19f497ac6c1d088eaff86ca" kind="variable"><name>timerInit</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1acb0a5f9ca21b21cac928a620e7b59a54" kind="variable"><name>timerKeep</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a6305c7fcb92a851d1155e695e7653af1" kind="variable"><name>timerReport</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ac9fc55bfd5b5f394a4a4467277a53ce2" kind="variable"><name>getLoad</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1aef3f05a0051c2d3b4207d14ae4bee3e9" kind="function"><name>SetContext</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a7631beede2da0cf2711eca384ddebd28" kind="function"><name>BeginAutoOrganize</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a468212d49999631c3482a531a3d3053f" kind="function"><name>TimerReport_Elapsed</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ae67fba75930ab667710012d2edacf0e7" kind="function"><name>Timer_Init_Elapsed</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a976aff469de36a7f9adc5e5d505c3fb3" kind="function"><name>TimerKeep_Elapsed</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a94cb8284544241e8837b64d02e3f04a8" kind="function"><name>Init</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ae2d0fe10fe8561c5da125e4a09d6cdb0" kind="function"><name>InitIncomes</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a612bf2217ec6ba11bf5294d304925f39" kind="function"><name>OrganizeExoAndroids</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1adf1cdee69338e09bec7928d7083588bd" kind="function"><name>ReportAndroidsInSearchOfGood</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a096aa85064f01224ce6dcf089c78a4d3" kind="function"><name>BuildTuple&lt; M, S, R &gt;</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1ac3dd1e31cd6ced186908ed39a9ecf415" kind="function"><name>BeginDockins</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a1cc3e1ed1c57837b4c084fa999dc4972" kind="function"><name>LoadTheGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a3559de4ef81a93e18e47901db31e1303" kind="function"><name>AndroidsBeginUnload</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1aae211bb1221f8c0e49666e909a620900" kind="function"><name>tryReserveDocks</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a3d3548416046ac5b15961833458d953c" kind="function"><name>AndroidUnloads</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a225e7c1393e5dce61d73e29d619a6265" kind="function"><name>DockerLoadsTheGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a8d2b82271c44cd478b2bda69ef9b9471" kind="function"><name>takeGoodsUntilLoaded</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a6b5af800e915be9c13ef44440b5b07f4" kind="function"><name>SearchForGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context_1a1bfbcc453c09f77452f4fd9b2a85bcb8" kind="function"><name>SearchForStore</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kind="class"><name>Dockers::Library::DTOs::ControlPoint</name>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a9a6543fcff0da7ec9ed6f54a52e805f3" kind="property"><name>Dockers</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1aaca4ec14477c6306c36bc5ce3f6a2ae3" kind="property"><name>Ships</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a8bc0d848ef4f77755a21f60708b7d7c5" kind="function"><name>ControlPoint</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a0e16de3f72550980b35166462ede1b9a" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_datasource_1_1_control_point_data_source" kind="class"><name>Dockers::Datasource::ControlPointDataSource</name>
+    <member refid="class_dockers_1_1_datasource_1_1_control_point_data_source_1aba91a96a7b3e2893faf73eb19de3cad9" kind="function"><name>GetControlPoint</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_control_point_driver" kind="class"><name>Dockers::Drivers::ControlPointDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1acf740f44f9db507e4a65177d7340b322" kind="variable"><name>dockerDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac9c77a58645a519c6c25e69e862d43ed" kind="variable"><name>radarDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a5cfe5812f8acca38a65239f4803fb759" kind="function"><name>ControlPointDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1aa9d57145f848b2737ba2a9001a919c79" kind="function"><name>IncomeShip</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a172967c3630af5cf29efcf95179534d5" kind="function"><name>SetContext</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a62fa0f15ac0a7919976b7b2d3a287d4c" kind="function"><name>BeginAutoOrganizationContext</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a63fd351ccfbbdd6d3eeae3fdda6bb9f3" kind="function"><name>SetDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac6252ec44f8b4a2facb4151fca170a08" kind="function"><name>FreeDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a691338523999322091361dda6aa2bf8e" kind="function"><name>LoadDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac27c8625b2b695cadc32f600be16e141" kind="function"><name>SetupDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a7d0801553baebdad4f11af274dbfb6d5" kind="function"><name>InitRadar</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a38fbd6d171bb3a1e1f6c399a284d6760" kind="function"><name>InformShipsToControlPoint</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_control_point_driver_1acad63d8fe1d00ff102e1440486dee4fc" kind="function"><name>InitExoAndroids</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_libraries_1_1_control_point_library" kind="class"><name>Dockers::Libraries::ControlPointLibrary</name>
+    <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1a29de756b6c1587ec674fea1760698fa7" kind="variable"><name>controlPointDataSource</name></member>
+    <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1a69015be8439ac91ae13e086f85b5dd5b" kind="variable"><name>shipDatasource</name></member>
+    <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1ae7577065e04ea8705529bd738acc9ec0" kind="function"><name>ControlPointLibrary</name></member>
+    <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1ab3419e76d76c2a5d9bced74c1fff9297" kind="function"><name>GetControlPoint</name></member>
+    <member refid="class_dockers_1_1_libraries_1_1_control_point_library_1a5186d8731acd406e8d01f3aedec564b4" kind="function"><name>GetShips</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kind="class"><name>Dockers::Library::DTOs::Dock</name>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a4ec56f308c0e763552a769d8d0c9fa77" kind="property"><name>Description</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a05dec7a6b2382aa3f0fd549dc7865a1e" kind="property"><name>ExoAndroid</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aab395d439556e6f7d719a0786b4a97c5" kind="property"><name>InJobAndroids</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ae461fe44a6d41ec1406553007871feef" kind="property"><name>IsUnloading</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1af4db79ea31db44089d250a35540fc7a4" kind="property"><name>IsReserved</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a92ac8188e19a2522a7f9b725606e1c0b" kind="property"><name>Id</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a15f8a99bd38b9959924510d6325b33bf" kind="property"><name>Ready</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a418800b2bf56cddbb3122997d6c5b71b" kind="property"><name>WeightCapacity</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aff8182ed4ae575126c4620a0d4c03e48" kind="property"><name>GoodsHistorial</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ab08a03d0afdb0d12aa9c2ec1b2db4a11" kind="variable"><name>IsBusy</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1aef4ebd79ddd99747da0fcbc864de5b10" kind="variable"><name>OpenTimes</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a5d7469dd240b0d33559258c09df2f691" kind="function"><name>Dock</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a898f766223e79f9d0a6285e92e484994" kind="function"><name>IsReady</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1ad75ff481313eea4adc709750a9a07451" kind="function"><name>ToString</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1abcd914f4de11fbf8b4bc77e47a8ebf89" kind="function"><name>getRandomName</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock_1a2e3d797a736c974b203a41df38c01567" kind="function"><name>getRandomWeightCapacity</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_dock_driver" kind="class"><name>Dockers::Drivers::DockDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a3275b50e36810b8f246355ecdfce9f28" kind="variable"><name>androidDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a577ae843ab9b7aeb5144f8dfe1f0972a" kind="function"><name>DockDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a37abeea38cff8e88355ce8c50b5a3bbd" kind="function"><name>FreeExoAndroid</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a17c7f94593d2c3e2c9a6fde9a5b0a2c2" kind="function"><name>SetDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a8aeb97d401f491302c4b5947c12e394c" kind="function"><name>PresFreeButton</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a2a94477fa6d054ec61218036ea4d40a5" kind="function"><name>SetupDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a92bdf9e3c435e19428112341e5acec61" kind="function"><name>CloseDock</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1aaf4ba940a0d3ee3f932171608207efcc" kind="function"><name>getDock</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a28597e542e84789527dbd2e22d94e6fc" kind="function"><name>getRandom</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a11bf0c81f2cbe4ac6ab6115238cada2c" kind="function"><name>getRandomName</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker" kind="class"><name>Dockers::Library::DTOs::Docker</name>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1aa2bf59672404814248be514c754fc695" kind="property"><name>Id</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a0de41bde92aa7d3e44a10ed8c36be609" kind="property"><name>Name</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1aaa6a82a2aa91d7f9de2f58c12a2bac88" kind="property"><name>IsAvailable</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1ab67e13c302da021077a4adac10368f4a" kind="property"><name>InDockerShips</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a5c7b4fad3ef1fa36923726d0430a4eca" kind="property"><name>ExoAndroids</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a5c4c89c7c96751407bbb389b3095d7b5" kind="property"><name>Docks</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a60f32e595c977bc70ca82e6534f98cc3" kind="function"><name>Docker</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1ae796b33187f39652adb34ca984c559a8" kind="function"><name>Docker</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a3b2913f7113978a0a5c0429418751ecf" kind="function"><name>OpenDocker</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a840a04ffce3bdf7e1d5330dfc031c22f" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_docker_driver" kind="class"><name>Dockers::Drivers::DockerDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1ad250398133e9f0a5fb0b306da3982b86" kind="variable"><name>dockDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a42a65f9348d436c033de72905290f717" kind="function"><name>DockerDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1acd5900138f16b0b12b1d79f527f9ef8a" kind="function"><name>OpenDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a6a2194c989c750f8b415fabc761aef08" kind="function"><name>SetDockersToControlPoint</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1abf8b8355a9d1d405ce289974462fe08f" kind="function"><name>SetDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a5a4154b119d854c93f0b928b97de2247" kind="function"><name>SetupDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a3efce1203881b12de80a8f7c23cc5d1c" kind="function"><name>InitExoAndroids</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a96965d3686220e4e5109c5e51e8ae406" kind="function"><name>getDocker</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1a6148e7a64ce56824fde4633471672863" kind="function"><name>getExoAndroid</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_docker_driver_1ad71fb2d2c52f32a1d0e73e805909c1a8" kind="function"><name>getRandom</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kind="class"><name>Dockers::Library::DTOs::ExoAndroid</name>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a8f5d4ec1d838f6304f968e6d8d7bab19" kind="property"><name>Id</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a731635cdda487f20b847259f58a096b6" kind="property"><name>Name</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1aaac63a97efba1f2efdb55e000b6da8fe" kind="property"><name>DockerId</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a7cccff8c1157b0682e5086c092163af2" kind="property"><name>IsSearchingStore</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a83086323e7ef53e6479160a69325335a" kind="property"><name>IsSearchingGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a8e5a360c40eb09f8c0641dd8993bc572" kind="property"><name>Dock</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a0bf8a0ac73bd8eda5a45a91354e617b1" kind="property"><name>InDocks</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a6ef218176bf7229e3b1ef2d4ad4ebd42" kind="property"><name>DockedGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1aaf5f40b2d5b17966fec82df216260a2d" kind="property"><name>LoadedGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a71c6bd1285c97fd0c8327d845ce84567" kind="property"><name>CarryGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a960a64174274627ff4f3596208d9f5d0" kind="property"><name>HasDocks</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1ac18bfce3bcb1391fd4ddc3c9f2c2cc38" kind="property"><name>ReservedWeightCapacity</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a36caa85edf47a37e417410f4e3926649" kind="property"><name>WeightCapacity</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a4e58a0763bbb68a3c1a955437e0c89ad" kind="property"><name>Velocity</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a3926b72d1f883acfacc6cecd1916e971" kind="variable"><name>IsInDock</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a110d05242e1a051ba50baf2e910f2cf7" kind="variable"><name>LoadWeight</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a5371db3e5e8e144b2bf7818d61af657f" kind="variable"><name>CarryWeight</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a933752f76d406f80f0d11d15eec6477e" kind="variable"><name>LoadedWeight</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a654a295f133f71967c4d1cfb697d2f68" kind="variable"><name>DockedWeight</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a90fc25dab8ea0014675907ece9d5d55a" kind="function"><name>ExoAndroid</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1ab49901f1f98cbbd970cd7a05fbee3677" kind="function"><name>getRandomName</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a15b46fc8144493df3b2506801579f40f" kind="function"><name>getRandomWeightCapacity</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a24da49ac6e74d58ae51b57c669e56457" kind="function"><name>ExoAndroid</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a827f8c1944c52c1d8f610d1ff57c8c8e" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_exo_android_driver" kind="class"><name>Dockers::Drivers::ExoAndroidDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1aae85cd955a6e710072152aec40f94da4" kind="variable"><name>laptopDriver</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1afafc15105c193f4846da71e6271a60a1" kind="function"><name>TryReserveDock</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a4aa0d206964b6f377576d16800bb7a5d" kind="function"><name>UnloadGoods</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab56285c0515d29d52d77b312f21a72e2" kind="function"><name>FreeDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a632bde30d2c1a07496b5af03b4ccf07e" kind="function"><name>PresFreeButton</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1ab6f1f81b6b71e51a41ba2860ac5ae996" kind="function"><name>SearchForGoods</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_exo_android_driver_1a0a4c10cbf7f6350bd0c0207ca2cc729f" kind="function"><name>SearchForStore</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kind="class"><name>Dockers::Library::DTOs::Good</name>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1af353c61200663e5498d0409ac4f1c767" kind="property"><name>Id</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1a56c72fd6b89db104ef804145fdd6b257" kind="property"><name>ShipId</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1abb8c9e8f435a1055fcfa7ead56cd0809" kind="property"><name>Weight</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1a0b99a9afb59bbbed1a029c7465259c94" kind="property"><name>Volume</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1a0718c568817a03584d9cfbf70a19212f" kind="property"><name>IsWithAndroid</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1ac78991e45e8c2dc43eb26af53ca1fa9d" kind="property"><name>IsInDock</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1a1ed5d3a6cdf34d352aa9792e349e2491" kind="property"><name>DockId</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1a1999e556f4696d2dc603d1ed3630fedf" kind="property"><name>Android</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good_1a463b2696ba4c25e20c1a415a50d7a9ac" kind="function"><name>Good</name></member>
+  </compound>
+  <compound refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kind="interface"><name>Sequence::Builder::IAsyncFuncBuilder2&lt; T &gt;</name>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a78089b3aec1e92d5c0226197d64a3050" kind="function"><name>GetSubject</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a9c782b931601f81b0571461ae8fa3875" kind="function"><name>RunInitialTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1af4e4eae4216a52ba7302675a470ca9d2" kind="function"><name>AddTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1acbaa63f2d57fd2044f552f19ddc76b49" kind="function"><name>AddActionTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1ab84086de0041fcdac51fcd24108dba16" kind="function"><name>AddActionTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1adcdc0e1f29c89d487da8d1961787e74a" kind="function"><name>AddAction</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1ad2378fb360e20bbe6828b816a2343e03" kind="function"><name>RunAllAndContinue</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1adeb99a1d066ba58790812bab4256446a" kind="function"><name>RunTaskInline</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a47ae6e1bbcaaaff50ecd102c44664b97" kind="function"><name>AddContinueOption</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a48671b678122aa4db129f14e84344d17" kind="function"><name>AddContinue</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a4cfa4973e1dc0632882f8d3a4b80af32" kind="function"><name>RunWhen</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a95af0e5fce245de940166045db25166b" kind="function"><name>CancelTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a2ee719612522d2bdb40bc21f47a446b5" kind="function"><name>InitCheckerTimer</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a91d0466a2b39b76f5e07b9560afce932" kind="function"><name>CheckTaskStatus</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a66fe060fa94f9ecb29de92937f059806" kind="function"><name>GetTaskForSubjectV2</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a36ca94b94bda5a6ad13e4b906a2b1107" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1a5937dc4f1977c75f60d4e9e867f359c5" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1abd5b4117f39f47d942e874d8ff31844f" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1abbd0689a548ae898da0f682cbcb460a5" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4_1aee0a40abbaa75e6a3bf930dafe739299" kind="function"><name>GetCancelationToken</name></member>
+  </compound>
+  <compound refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4" kind="interface"><name>Sequence::Builder::IAsyncFuncBuilder&lt; T &gt;</name>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a0ab38d3bc34ecac9a144112d42c5e3e0" kind="function"><name>GetSubject</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a2ca75014578e2b840fcd42bd9edf3046" kind="function"><name>RunInitialTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a9d0a47565d76e8f6cc9d65beef60bebc" kind="function"><name>AddTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a9670d3232698aa0979f0cb939b29ac38" kind="function"><name>AddActionTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a5f1c29d6ae3e6ce0148198bde3644086" kind="function"><name>AddActionTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1afec9ce81e36e4139071967fd8e8fdfb5" kind="function"><name>AddParalelTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a79e952a22ced80ae942b4616f08e2330" kind="function"><name>RunAllAndContinue</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a6c5a6f3794914e82c73ddd91b9576b39" kind="function"><name>RunParalelTasks</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a6beb16410d8fb1a27c12e0da00fdc082" kind="function"><name>RunInParallel</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a710f6bf8c35a090228b29d092df3230d" kind="function"><name>RunTaskByIndex</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1af37c6fff50e423b0d0497b8f0ff2909f" kind="function"><name>AddContinueOption</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a2e77c146c416272427f377a85d9d2a9d" kind="function"><name>AddContinue</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1af7fd4099fcb2af751068d31c302194f9" kind="function"><name>RunWhen</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1aaf87ad59fb144b24e5ce6cfffefd347f" kind="function"><name>CancelTask</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a82e841f39ed125c299eb5c0b176d3662" kind="function"><name>InitCheckerTimer</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a2e217dbb6c7d6ff6dea8b7687da24442" kind="function"><name>CheckTaskStatus</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1ad962a447da87054765ee0a8c830ad823" kind="function"><name>GetTaskForSubject</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a7ce6d0a7fc574f55a8ecff1c2b9f5fb4" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a9b5450f9ebdc8a56b3220cf1680e08c2" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a0a2b30a67ba0816d499429797c6bc6da" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a4dca675d1c504f8f3404fa1f996da34f" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a40bf0ff2e019c8a446c12289615a6496" kind="function"><name>GetCancelationToken</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_datasource_1_1_i_control_point_data_source" kind="interface"><name>Dockers::Datasource::IControlPointDataSource</name>
+    <member refid="interface_dockers_1_1_datasource_1_1_i_control_point_data_source_1a4f0e45baa6d2470404c17e794ad3fa8a" kind="function"><name>GetControlPoint</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver" kind="interface"><name>Dockers::Drivers::IControlPointDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a0204f4417eeea1df8e6c63be890f6b16" kind="function"><name>IncomeShip</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a710722906b773a58d26b6783125bf1ce" kind="function"><name>SetDockers</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1abe1dac0ed58912520c1414332173e291" kind="function"><name>FreeDockers</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1ad0b6179e6514fb4af6929ef15150b5a2" kind="function"><name>LoadDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3c50465ebc1738e093165e77940a659b" kind="function"><name>SetupDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1aa1b1363d0f4c49d4bf9e1f080cf6cc01" kind="function"><name>InitExoAndroids</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3e4648d0535a0df4d6b599aa232e1b9d" kind="function"><name>InitRadar</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a1fa0e14db631b4600f4b1acb00c66570" kind="function"><name>InformShipsToControlPoint</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1af5c2775cb0711ebf5f50d1b0b361fbff" kind="function"><name>SetContext</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a106f3d7ef0b3fb56decd489f84571566" kind="function"><name>BeginAutoOrganizationContext</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_libraries_1_1_i_control_point_library" kind="interface"><name>Dockers::Libraries::IControlPointLibrary</name>
+    <member refid="interface_dockers_1_1_libraries_1_1_i_control_point_library_1ad277154abf26c5cb6147eb9145b669c7" kind="function"><name>GetControlPoint</name></member>
+    <member refid="interface_dockers_1_1_libraries_1_1_i_control_point_library_1a574190312c2f8e2704d3d2d54dc931d6" kind="function"><name>GetShips</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_dock_driver" kind="interface"><name>Dockers::Drivers::IDockDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a7c317de8d0c77f70d2e2368fbe19e767" kind="function"><name>FreeExoAndroid</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a3c80be579cef73767c5ea8f433896767" kind="function"><name>SetDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1aa27364b428e9f0095056e4ee716a7705" kind="function"><name>SetupDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a460880797484beef5a347a8b1f1f8283" kind="function"><name>PresFreeButton</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a3e7228f040ac91b989e44b14e349038f" kind="function"><name>CloseDock</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_docker_driver" kind="interface"><name>Dockers::Drivers::IDockerDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a3c51db1a443d069016041d015b0b46e4" kind="function"><name>OpenDockers</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1aef77eb7ec3b8c9d1916802b6c387884d" kind="function"><name>SetDockersToControlPoint</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1ac7a2f4b2031e40f491fb0c64a11db6a1" kind="function"><name>SetDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a4d47a5cc392511d24d0bc272a328da01" kind="function"><name>SetupDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a433cc2c513c087600bf298a5675347cf" kind="function"><name>InitExoAndroids</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver" kind="interface"><name>Dockers::Drivers::IExoAndroidDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a6df869c30f51fa20a1b993b8085588fd" kind="function"><name>SearchForStore</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a339a6e7d748f08b3320123bb1041b306" kind="function"><name>SearchForGoods</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a07d6ec68422df27d859db68ab1578993" kind="function"><name>TryReserveDock</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a71f031a602d49da1ee1750fec38ee44a" kind="function"><name>UnloadGoods</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1a3a5744e5d9b5b64db9f0f9a45c938d62" kind="function"><name>FreeDocks</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver_1aec3b20999849fe96a42e7aeca9104a18" kind="function"><name>PresFreeButton</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver" kind="interface"><name>Dockers::Drivers::ILaptopDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver_1a3cebcd3a9d217ffc9352d1c7fee918b2" kind="function"><name>FreeDocksForAndroid</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_radar_driver" kind="interface"><name>Dockers::Drivers::IRadarDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1adc7f1704eff99f2c7280e50ee969a128" kind="function"><name>Init</name></member>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1a5c49b505465968ea96c88210d6f4f654" kind="function"><name>InformShipsToControlPoint</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_drivers_1_1_i_scan_driver" kind="interface"><name>Dockers::Drivers::IScanDriver</name>
+    <member refid="interface_dockers_1_1_drivers_1_1_i_scan_driver_1a157aa4c68a44f884b410b76be7cefca1" kind="function"><name>ScanStore</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource" kind="interface"><name>Dockers::Datasource::IShipDatasource</name>
+    <member refid="interface_dockers_1_1_datasource_1_1_i_ship_datasource_1ad5a3f35e2faabb5356a352eff69a55cd" kind="function"><name>GetShips</name></member>
+  </compound>
+  <compound refid="interface_dockers_1_1_libraries_1_1_i_ship_library" kind="interface"><name>Dockers::Libraries::IShipLibrary</name>
+    <member refid="interface_dockers_1_1_libraries_1_1_i_ship_library_1ac531d18f36ff2173f0289c0ba31075a9" kind="function"><name>GetShips</name></member>
+  </compound>
+  <compound refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4" kind="interface"><name>Sequence::Space::ITaskWrapper&lt; T &gt;</name>
+    <member refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a1c466c19b036142d5875029a3866e1bf" kind="function"><name>GetTaskOnSubject</name></member>
+    <member refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a48e7f6e8d96803df566dd08e7021d792" kind="function"><name>GetTaskOnSubjectV2</name></member>
+    <member refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a977380262f9297baa501c71224ab90a0" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1ae2402a31ff189e5c63d9800fb64c0424" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a58c15ebff82d93bd9a0c20fa8ed33a08" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a86c87d28c45bb0ad13b4513e8546ddd4" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1ae36768f9695230677d7fcd92cbd4966d" kind="function"><name>GetCancelationToken</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_laptop_driver" kind="class"><name>Dockers::Drivers::LaptopDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_laptop_driver_1adcda0a3b645e4cab334ec617499c7521" kind="function"><name>FreeDocksForAndroid</name></member>
+  </compound>
+  <compound refid="class_sequence_1_1_cmd_1_1_program" kind="class"><name>Sequence::Cmd::Program</name>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a70b8d573fd0a1a5c865bdfb1369c8e5e" kind="variable"><name>library</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1aee869ee74d2868285350f09670c600f5" kind="variable"><name>driver</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1af343a4493720ffdbe0b60fdb0611fe63" kind="variable"><name>setDockers</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a38a953fd00cb4554145b1f6c83d802cf" kind="variable"><name>loadDocks</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a81d7aa56bf07aaed9500407751168112" kind="variable"><name>setupDocks</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a2a7389b8da57ca72a98ef5d2e9c8a889" kind="variable"><name>initExoAndroids</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a16a2e6a0ce50db90bbbf9e61573ef499" kind="variable"><name>getShips</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1aecafe675fa1f93d7e786125204cc6d4b" kind="variable"><name>freeDockers</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a218c558e64395e88b3bc0b6a68741e3a" kind="function"><name>Main</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a2f53d515e62d2915ea0ec425b87474bb" kind="function"><name>TestUsability</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1ac3c66702e13684bf55b2402148187865" kind="function"><name>IncomeShips</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1_program_1a798b817487daac1b8d8fab93ab213823" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="class_sequence_1_1_cmd_1_1__2_1_1_program" kind="class"><name>Sequence::Cmd::_2::Program</name>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ae35e69b484f42730150bd71c6cb19783" kind="variable"><name>library</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ab4f63339fdcf919d5e846d50c88085c7" kind="variable"><name>driver</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a5b5984b9869d6fe786d1f635b28d36e3" kind="variable"><name>setDockers</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a3995a78d9f3c4ab88682d40cea114a8e" kind="variable"><name>loadDocks</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a6dd47d6e06540c471d3bbf7a6d72eea6" kind="variable"><name>setupDocks</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1acf6f3b18b676e8aa176cb38eeb22e69c" kind="variable"><name>initExoAndroids</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a0fa9df9d37b231695869f87339c22682" kind="variable"><name>getShips</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1acd0b538b6c4b6e76b4bbc4b4722e9b19" kind="variable"><name>freeDockers</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1af227751af440fdeabfffca75ce9cf7f0" kind="variable"><name>initTaskRadar</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a8ea5b5bcb00186fe26baf93446926dac" kind="variable"><name>initAndroids</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a9aed06bd2347b97d2f57a3c199aae18e" kind="variable"><name>scaner</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a119267866b4688bf0eb23c18919833f7" kind="function"><name>Main</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ab03951cf3c58c2f5ae7223279769c3d9" kind="function"><name>TestUsability</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a87277e9710b1d1f87991e8bfca3ee15e" kind="function"><name>getInfoRadar</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1acf847c7e6fb5478b763e5e8fa7c8d8e5" kind="function"><name>print</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a119267866b4688bf0eb23c18919833f7" kind="function"><name>Main</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ab03951cf3c58c2f5ae7223279769c3d9" kind="function"><name>TestUsability</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1a9fbd95e7da0445c3137769e158e03101" kind="function"><name>getInfoRadar</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1ad91527bbd587887bcb7fd572b32693f2" kind="function"><name>printScanResult</name></member>
+    <member refid="class_sequence_1_1_cmd_1_1__2_1_1_program_1acf847c7e6fb5478b763e5e8fa7c8d8e5" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_radar_driver" kind="class"><name>Dockers::Drivers::RadarDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a9ddcaf39fa32ad03368bde9401d30484" kind="variable"><name>timer</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a3f6dbde115b405c1683ec17a8b64878d" kind="variable"><name>Ships</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1adc51bdea68d249a6798ea726582d25a3" kind="function"><name>Init</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1aeeb9d69f7d148fc890ad50ad1a7f9f1a" kind="function"><name>InformShipsToControlPoint</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1ad46b0bd4f39c3eac2bb1d8b180786369" kind="function"><name>SetShipsUnderView</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1ad1ab14b8d540fc26a48b7f57f4cd4e43" kind="function"><name>Timer_Elapsed</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a9154e8ca84fd13bc5dfacc4548ecc32e" kind="function"><name>ScanForShips</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_radar_driver_1a2583d4ae58ccce31da5c0b10eb84ab3b" kind="function"><name>getRandomName</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_drivers_1_1_scan_driver" kind="class"><name>Dockers::Drivers::ScanDriver</name>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a8658b7f8439c7133bc64802bd7d0486c" kind="function"><name>ScanStore</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae13299757a3c4858e4cc6794e40ceee0" kind="function"><name>printDockers</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" kind="function"><name>printAndroids</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" kind="function"><name>printDocks</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1a9ea72f33ce6153898989684fa3046f53" kind="function"><name>newLine</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1aaa180cf95a91af85698264d8c81b378f" kind="function"><name>printLine</name></member>
+    <member refid="class_dockers_1_1_drivers_1_1_scan_driver_1aaa06d254c7767c12642c79b1f3ea1fcf" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kind="class"><name>Dockers::Library::DTOs::Ship</name>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a22f13f9ae15b5f93947159fd8b6b9107" kind="property"><name>Id</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a27c2f0ede534a1c1ac20f632ae45f0e8" kind="property"><name>Name</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a7ceed64e2a887ffb3cf89bb0798b6686" kind="property"><name>DockerId</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a1cc3431c61b0a0ab8e9afafc5218a53f" kind="property"><name>Goods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a92bade4efbb09715f592b4e9ff835fad" kind="variable"><name>IsInDocker</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a8ea40cbe25df6a4d78861b570194c7b8" kind="function"><name>Ship</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1ac6ea6224556c13d611520ef40eada937" kind="function"><name>ToString</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a64976399b834b5a30e33e927b4b03e48" kind="function"><name>getGoods</name></member>
+    <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship_1a8c2fe60653528cb2897f334924d114c3" kind="function"><name>getGood</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_datasource_1_1_ship_datasource" kind="class"><name>Dockers::Datasource::ShipDatasource</name>
+    <member refid="class_dockers_1_1_datasource_1_1_ship_datasource_1a0d1ea2e34ac816c0a80f99b6aa408f20" kind="function"><name>GetShips</name></member>
+    <member refid="class_dockers_1_1_datasource_1_1_ship_datasource_1ad7bbc4c7161e3ebd16c2d6abdf3e18c9" kind="function"><name>getShip</name></member>
+  </compound>
+  <compound refid="class_dockers_1_1_libraries_1_1_ship_library" kind="class"><name>Dockers::Libraries::ShipLibrary</name>
+    <member refid="class_dockers_1_1_libraries_1_1_ship_library_1a4affc6c1a38b927e1a0d29ec0a05e3ab" kind="variable"><name>shipDataSource</name></member>
+    <member refid="class_dockers_1_1_libraries_1_1_ship_library_1adfc6b694b99539dc4f43b7d0694d9ca9" kind="function"><name>ShipLibrary</name></member>
+    <member refid="class_dockers_1_1_libraries_1_1_ship_library_1ae93e86b20fb3c4e4b0d834e152c48749" kind="function"><name>GetShips</name></member>
+  </compound>
+  <compound refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4" kind="class"><name>Sequence::Builder::TaskWrapper&lt; T &gt;</name>
+    <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a83f3aeeb3c66fd5c6d23b16747e0348f" kind="function"><name>GetTaskOnSubject</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a4e7fbe294f7780642e471713a7b8ed2e" kind="function"><name>GetTaskOnSubjectV2</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1ade413a66a0ba2babc42da683d0d8ed45" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a92ec8cb1563205f2be57d2f41869997c" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a1f02eba9d58f145f2768a1686f742d08" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a006ad21ae473ae5af42a19b70682b8bb" kind="function"><name>GetCancelationToken</name></member>
+    <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a3c0de030861dc5d1891f48c674ace31b" kind="function"><name>GetCancelationToken</name></member>
+  </compound>
+  <compound refid="namespace_dockers" kind="namespace"><name>Dockers</name>
+  </compound>
+  <compound refid="namespace_dockers_1_1_datasource" kind="namespace"><name>Dockers::Datasource</name>
+  </compound>
+  <compound refid="namespace_dockers_1_1_drivers" kind="namespace"><name>Dockers::Drivers</name>
+  </compound>
+  <compound refid="namespace_dockers_1_1_libraries" kind="namespace"><name>Dockers::Libraries</name>
+  </compound>
+  <compound refid="namespace_dockers_1_1_library" kind="namespace"><name>Dockers::Library</name>
+  </compound>
+  <compound refid="namespace_dockers_1_1_library_1_1_d_t_os" kind="namespace"><name>Dockers::Library::DTOs</name>
+  </compound>
+  <compound refid="namespace_sequence" kind="namespace"><name>Sequence</name>
+  </compound>
+  <compound refid="namespace_sequence_1_1_builder" kind="namespace"><name>Sequence::Builder</name>
+  </compound>
+  <compound refid="namespace_sequence_1_1_cmd" kind="namespace"><name>Sequence::Cmd</name>
+  </compound>
+  <compound refid="namespace_sequence_1_1_cmd_1_1__2" kind="namespace"><name>Sequence::Cmd::_2</name>
+  </compound>
+  <compound refid="namespace_sequence_1_1_space" kind="namespace"><name>Sequence::Space</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_concurrent" kind="namespace"><name>System::Collections::Concurrent</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq_1_1_expressions" kind="namespace"><name>System::Linq::Expressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection_1_1_emit" kind="namespace"><name>System::Reflection::Emit</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_timers" kind="namespace"><name>System::Timers</name>
+  </compound>
+  <compound refid="_control_point_data_source_8cs" kind="file"><name>ControlPointDataSource.cs</name>
+  </compound>
+  <compound refid="_ship_datasource_8cs" kind="file"><name>ShipDatasource.cs</name>
+  </compound>
+  <compound refid="_i_control_point_data_source_8cs" kind="file"><name>IControlPointDataSource.cs</name>
+  </compound>
+  <compound refid="_i_ship_datasource_8cs" kind="file"><name>IShipDatasource.cs</name>
+  </compound>
+  <compound refid="_control_point_library_8cs" kind="file"><name>ControlPointLibrary.cs</name>
+  </compound>
+  <compound refid="_ship_library_8cs" kind="file"><name>ShipLibrary.cs</name>
+  </compound>
+  <compound refid="_i_control_point_library_8cs" kind="file"><name>IControlPointLibrary.cs</name>
+  </compound>
+  <compound refid="_i_ship_library_8cs" kind="file"><name>IShipLibrary.cs</name>
+  </compound>
+  <compound refid="_control_point_driver_8cs" kind="file"><name>ControlPointDriver.cs</name>
+  </compound>
+  <compound refid="_dock_driver_8cs" kind="file"><name>DockDriver.cs</name>
+  </compound>
+  <compound refid="_docker_driver_8cs" kind="file"><name>DockerDriver.cs</name>
+  </compound>
+  <compound refid="_exo_android_driver_8cs" kind="file"><name>ExoAndroidDriver.cs</name>
+  </compound>
+  <compound refid="_laptop_driver_8cs" kind="file"><name>LaptopDriver.cs</name>
+  </compound>
+  <compound refid="_radar_driver_8cs" kind="file"><name>RadarDriver.cs</name>
+  </compound>
+  <compound refid="_scan_driver_8cs" kind="file"><name>ScanDriver.cs</name>
+  </compound>
+  <compound refid="_i_control_point_driver_8cs" kind="file"><name>IControlPointDriver.cs</name>
+  </compound>
+  <compound refid="_i_dock_driver_8cs" kind="file"><name>IDockDriver.cs</name>
+  </compound>
+  <compound refid="_i_docker_driver_8cs" kind="file"><name>IDockerDriver.cs</name>
+  </compound>
+  <compound refid="_i_exo_android_driver_8cs" kind="file"><name>IExoAndroidDriver.cs</name>
+  </compound>
+  <compound refid="_i_laptop_driver_8cs" kind="file"><name>ILaptopDriver.cs</name>
+  </compound>
+  <compound refid="_i_radar_driver_8cs" kind="file"><name>IRadarDriver.cs</name>
+  </compound>
+  <compound refid="_i_scan_driver_8cs" kind="file"><name>IScanDriver.cs</name>
+  </compound>
+  <compound refid="_context_8cs" kind="file"><name>Context.cs</name>
+  </compound>
+  <compound refid="_control_point_8cs" kind="file"><name>ControlPoint.cs</name>
+  </compound>
+  <compound refid="_dock_8cs" kind="file"><name>Dock.cs</name>
+  </compound>
+  <compound refid="_docker_8cs" kind="file"><name>Docker.cs</name>
+  </compound>
+  <compound refid="_exo_android_8cs" kind="file"><name>ExoAndroid.cs</name>
+  </compound>
+  <compound refid="_good_8cs" kind="file"><name>Good.cs</name>
+  </compound>
+  <compound refid="_ship_8cs" kind="file"><name>Ship.cs</name>
+  </compound>
+  <compound refid="_async_func_builder_8cs" kind="file"><name>AsyncFuncBuilder.cs</name>
+  </compound>
+  <compound refid="_async_func_builder2_8cs" kind="file"><name>AsyncFuncBuilder2.cs</name>
+  </compound>
+  <compound refid="_task_wrapper_8cs" kind="file"><name>TaskWrapper.cs</name>
+  </compound>
+  <compound refid="_i_async_func_builder_8cs" kind="file"><name>IAsyncFuncBuilder.cs</name>
+  </compound>
+  <compound refid="_i_async_func_builder2_8cs" kind="file"><name>IAsyncFuncBuilder2.cs</name>
+  </compound>
+  <compound refid="_i_task_wrapper_8cs" kind="file"><name>ITaskWrapper.cs</name>
+  </compound>
+  <compound refid="_sequence_8_cmd_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_sequence_8_cmd_82_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_sequence_8_usability_8_cmd_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="dir_e63d2bb6ebf83a1cb2b0f6356728fc74" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend</name>
+  </compound>
+  <compound refid="dir_e6bb53534ac0e427887cf7a94c0c004e" kind="dir"><name>C:</name>
+  </compound>
+  <compound refid="dir_d762f224e68de06fe5c5d7e8071a14f0" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource</name>
+  </compound>
+  <compound refid="dir_0c4b63530bf171f39225b67c8bb0b0e1" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library</name>
+  </compound>
+  <compound refid="dir_66a549e931115084f2ea2147f3993fca" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers</name>
+  </compound>
+  <compound refid="dir_5111913e577897ed3fe745ff39b66126" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs</name>
+  </compound>
+  <compound refid="dir_d05d446629a945b29db71cc2a45fbfa7" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations</name>
+  </compound>
+  <compound refid="dir_87a7506e14055eeacdf95a6e29d14d00" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations</name>
+  </compound>
+  <compound refid="dir_0d73979b764646a384868500b3b6183c" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations</name>
+  </compound>
+  <compound refid="dir_473dc1b3bf18d9a809c3e1c5c1e91621" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations</name>
+  </compound>
+  <compound refid="dir_f0b2d5c0ddf8b7c787660ed915ca0d6e" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Interfaces</name>
+  </compound>
+  <compound refid="dir_4677faf6dba720d465c327f188865bca" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces</name>
+  </compound>
+  <compound refid="dir_495ae167399d1803741b1608021f4ce6" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Interfaces</name>
+  </compound>
+  <compound refid="dir_e9fe523160996d0642697285ca6f1c8b" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Interfaces</name>
+  </compound>
+  <compound refid="dir_93db7bed535f07dd4781422cd61a183b" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries</name>
+  </compound>
+  <compound refid="dir_e796c72ccf9cd4644479c0d2acf7d6d9" kind="dir"><name>C:/Users/METHOD</name>
+  </compound>
+  <compound refid="dir_d16c0a596d065c5970676ed6057dc78f" kind="dir"><name>C:/Users/METHOD/source/repos</name>
+  </compound>
+  <compound refid="dir_8ff4018fe3e05591e113bd8bf346b3d1" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder</name>
+  </compound>
+  <compound refid="dir_f6f26912e195fdedbbb6a4dab2e0a83d" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Cmd</name>
+  </compound>
+  <compound refid="dir_c8319785f36dc59165094613fbe4544a" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Cmd.2</name>
+  </compound>
+  <compound refid="dir_179b9ca51d6765d24d83392ff751dd09" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Usability.Cmd</name>
+  </compound>
+  <compound refid="dir_f74c2d4c0e081c098cdb41ddce7df3ca" kind="dir"><name>C:/Users/METHOD/source/repos/SequenceBuilder</name>
+  </compound>
+  <compound refid="dir_37e5e735791c02a1ef3a3e79fdd77e25" kind="dir"><name>C:/Users/METHOD/source</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

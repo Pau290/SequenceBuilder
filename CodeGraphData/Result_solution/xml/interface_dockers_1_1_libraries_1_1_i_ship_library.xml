@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_dockers_1_1_libraries_1_1_i_ship_library" kind="interface" prot="public">
+    <compoundname>Dockers::Libraries::IShipLibrary</compoundname>
+    <derivedcompoundref refid="class_dockers_1_1_libraries_1_1_ship_library" prot="public" virt="non-virtual">Dockers.Libraries.ShipLibrary</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_dockers_1_1_libraries_1_1_i_ship_library_1ac531d18f36ff2173f0289c0ba31075a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Ship&gt; &gt; Dockers.Libraries.IShipLibrary.GetShips</definition>
+        <argsstring>()</argsstring>
+        <name>GetShips</name>
+        <reimplementedby refid="class_dockers_1_1_libraries_1_1_ship_library_1ae93e86b20fb3c4e4b0d834e152c48749">GetShips</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Interfaces/IShipLibrary.cs" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>Dockers.Libraries.IShipLibrary</label>
+        <link refid="interface_dockers_1_1_libraries_1_1_i_ship_library"/>
+      </node>
+      <node id="96">
+        <label>Dockers.Libraries.ShipLibrary</label>
+        <link refid="class_dockers_1_1_libraries_1_1_ship_library"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Interfaces/IShipLibrary.cs" line="8" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Interfaces/IShipLibrary.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_dockers_1_1_libraries_1_1_i_ship_library_1ac531d18f36ff2173f0289c0ba31075a9" prot="public" virt="non-virtual"><scope>Dockers::Libraries::IShipLibrary</scope><name>GetShips</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</compoundname>
+    <basecompoundref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4" prot="public" virt="non-virtual">Sequence.Builder.IAsyncFuncBuilder&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a757433a753bf4b23bb81ee44c28c79c5" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>T</type>
+        <definition>T Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.Subject</definition>
+        <argsstring></argsstring>
+        <name>Subject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="16" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aa160e70c9e84fcbc59412767a40dced4" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDictionary&lt; string, Task&lt; T &gt; &gt;</type>
+        <definition>IDictionary&lt;string, Task&lt;T&gt; &gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.Tasks</definition>
+        <argsstring></argsstring>
+        <name>Tasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="49" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a65534e9bdc4c8a4c0831f1190b6612af" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ConcurrentDictionary&lt; string, Tuple&lt; Task, CancellationTokenSource &gt; &gt;</type>
+        <definition>ConcurrentDictionary&lt;string, Tuple&lt;Task, CancellationTokenSource&gt; &gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.ActionTasks</definition>
+        <argsstring></argsstring>
+        <name>ActionTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="51" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab2170f87cd87a77a32a2458e1e2ec274" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ConcurrentDictionary&lt; string, Tuple&lt; Task, CancellationTokenSource &gt; &gt;</type>
+        <definition>ConcurrentDictionary&lt;string, Tuple&lt;Task, CancellationTokenSource&gt; &gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.ParalelTasks</definition>
+        <argsstring></argsstring>
+        <name>ParalelTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="53" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ae260441ee6a66b4135de8a39981051b3" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ConcurrentDictionary&lt; string, Tuple&lt; string, Expression&lt; Func&lt; Task, bool &gt; &gt; &gt; &gt;</type>
+        <definition>ConcurrentDictionary&lt;string, Tuple&lt;string, Expression&lt;Func&lt;Task, bool&gt; &gt; &gt; &gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.Conditions</definition>
+        <argsstring></argsstring>
+        <name>Conditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="55" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aaebb20aebacb44d7ccacfb923c011468" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ConcurrentDictionary&lt; string, Tuple&lt; Task, CancellationTokenSource &gt; &gt;</type>
+        <definition>ConcurrentDictionary&lt;string, Tuple&lt;Task, CancellationTokenSource&gt; &gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.NotStartedActionTasks</definition>
+        <argsstring></argsstring>
+        <name>NotStartedActionTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="60" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aec4cc3910b1263d351693a814ab8faf8" prot="private" static="no" mutable="no">
+        <type>TaskFactory</type>
+        <definition>TaskFactory Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.taskFactory</definition>
+        <argsstring></argsstring>
+        <name>taskFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="28" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1acb0f87db6b8d9f4fec46189f91adcaf5" prot="private" static="no" mutable="no">
+        <type>readonly ITaskWrapper&lt; T &gt;</type>
+        <definition>readonly ITaskWrapper&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.taskWrapper</definition>
+        <argsstring></argsstring>
+        <name>taskWrapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="30" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a38df044e9342b87591f6a3b83bc22b2e" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.notstarted_tasks_timer</definition>
+        <argsstring></argsstring>
+        <name>notstarted_tasks_timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="255" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aecb361030b9278a5a68658f39648241e" prot="private" static="no" mutable="no">
+        <type>IList&lt; string &gt;</type>
+        <definition>IList&lt;string&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.notStartedRetried</definition>
+        <argsstring></argsstring>
+        <name>notStartedRetried</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="258" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1afa05b4b417bf2b8aea589830ab13ec8b" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="592" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4667bd3b8d05ccad4aee8dd038746260" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.stopTimer</definition>
+        <argsstring></argsstring>
+        <name>stopTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="593" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ac32229f0dd188a9d36218cd2f817a5e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.GetSubject</definition>
+        <argsstring>()</argsstring>
+        <name>GetSubject</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a0ab38d3bc34ecac9a144112d42c5e3e0">GetSubject</reimplements>
+        <briefdescription>
+<para>Gets the T </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="22" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a5fc00e2d3b5e50273bf9ccb23263d86d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AsyncFuncBuilder</definition>
+        <argsstring>()</argsstring>
+        <name>AsyncFuncBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="33" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="33" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adb3d9c109799a02e15ea4edd2b4804a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunInitialTask</definition>
+        <argsstring>(Func&lt; Task&lt; T &gt;&gt; funcTask)</argsstring>
+        <name>RunInitialTask</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a2ca75014578e2b840fcd42bd9edf3046">RunInitialTask</reimplements>
+        <param>
+          <type>Func&lt; Task&lt; T &gt;&gt;</type>
+          <declname>funcTask</declname>
+        </param>
+        <briefdescription>
+<para>Runs initial Task </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>funcTask</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="65" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aa600b44416b5dd7faf77cf53120f2cd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AddTask</definition>
+        <argsstring>(Task&lt; T &gt; task, string index)</argsstring>
+        <name>AddTask</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a9d0a47565d76e8f6cc9d65beef60bebc">AddTask</reimplements>
+        <param>
+          <type>Task&lt; T &gt;</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Add a Task<emphasis>T</emphasis>  </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="70" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a380ed7b62b6f4fa436cea4b41f6b7aba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AddActionTask</definition>
+        <argsstring>(Task task, string index)</argsstring>
+        <name>AddActionTask</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a9670d3232698aa0979f0cb939b29ac38">AddActionTask</reimplements>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Add a Task </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="76" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8cbdf4d10e05e60a359309bb1822d7cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AddActionTask</definition>
+        <argsstring>(Task task, string index, CancellationTokenSource tokenSource)</argsstring>
+        <name>AddActionTask</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a5f1c29d6ae3e6ce0148198bde3644086">AddActionTask</reimplements>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>CancellationTokenSource</type>
+          <declname>tokenSource</declname>
+        </param>
+        <briefdescription>
+<para>Add a Task with token </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tokenSource</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="83" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a143e3ca57b2c9e081a4b68f8767bfc19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AddParalelTask</definition>
+        <argsstring>(Task task, string index, CancellationTokenSource tokenSource=default)</argsstring>
+        <name>AddParalelTask</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1afec9ce81e36e4139071967fd8e8fdfb5">AddParalelTask</reimplements>
+        <param>
+          <type>Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>CancellationTokenSource</type>
+          <declname>tokenSource</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="90" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="90" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a62cd9896f5b2d9f25e7b96f7975cd71a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AddContinue</definition>
+        <argsstring>(string index, Expression&lt; Action&lt; Task &gt;&gt; action)</argsstring>
+        <name>AddContinue</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a2e77c146c416272427f377a85d9d2a9d">AddContinue</reimplements>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Action&lt; Task &gt;&gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>Add Continue Action </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="98" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="98" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a345d5b3bdc22c3a5fe264d42a6daac0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AddContinueOption</definition>
+        <argsstring>(string index, Expression&lt; Action&lt; Task &gt;&gt; action, TaskContinuationOptions option)</argsstring>
+        <name>AddContinueOption</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1af37c6fff50e423b0d0497b8f0ff2909f">AddContinueOption</reimplements>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Action&lt; Task &gt;&gt;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>TaskContinuationOptions</type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+<para>Add continue with option to Task on result </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="117" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="117" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a504013090873e967fdf7995f266b9c94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunWhen</definition>
+        <argsstring>(string index, string otherTaskIndex, Expression&lt; Func&lt; Task, bool &gt;&gt; expression)</argsstring>
+        <name>RunWhen</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1af7fd4099fcb2af751068d31c302194f9">RunWhen</reimplements>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>otherTaskIndex</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; Task, bool &gt;&gt;</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="364" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="364" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aef53433d2f6e658cdda03447de1a7a66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunAllAndContinue</definition>
+        <argsstring>()</argsstring>
+        <name>RunAllAndContinue</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a79e952a22ced80ae942b4616f08e2330">RunAllAndContinue</reimplements>
+        <briefdescription>
+<para>Run all and continue </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="378" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="378" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a528fc839ec2f9c37fcf00c5d3f8af5c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunParalelTasks</definition>
+        <argsstring>()</argsstring>
+        <name>RunParalelTasks</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a6c5a6f3794914e82c73ddd91b9576b39">RunParalelTasks</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="388" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="388" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab46b96ad2c22e0c3dbd827e3fa2c3c67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunInParallel</definition>
+        <argsstring>(params Task[] tasks)</argsstring>
+        <name>RunInParallel</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a6beb16410d8fb1a27c12e0da00fdc082">RunInParallel</reimplements>
+        <param>
+          <type>params Task[]</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="434" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="434" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a767b852fbeee5fe47b66d4f2458acacd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunTaskByIndex</definition>
+        <argsstring>(string index)</argsstring>
+        <name>RunTaskByIndex</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a710f6bf8c35a090228b29d092df3230d">RunTaskByIndex</reimplements>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Run task by index </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="472" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="472" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc9a5e6e75121b68aaad5c53cb25cdf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TaskStatus</type>
+        <definition>TaskStatus Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.CheckTaskStatus</definition>
+        <argsstring>(string index)</argsstring>
+        <name>CheckTaskStatus</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a2e217dbb6c7d6ff6dea8b7687da24442">CheckTaskStatus</reimplements>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Checks Task Status by index </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="501" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="501" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab6290b3229f67e089a42376eeef90b94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.CancelTask</definition>
+        <argsstring>(string index)</argsstring>
+        <name>CancelTask</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1aaf87ad59fb144b24e5ce6cfffefd347f">CancelTask</reimplements>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Cancel task by index </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="518" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="518" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a53d12e3bf74f32e2632375d1dee1ad88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.GetTaskForSubject</definition>
+        <argsstring>(Expression&lt; Action&lt; T &gt;&gt; action, CancellationTokenSource tokenSource=default)</argsstring>
+        <name>GetTaskForSubject</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1ad962a447da87054765ee0a8c830ad823">GetTaskForSubject</reimplements>
+        <param>
+          <type>Expression&lt; Action&lt; T &gt;&gt;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>CancellationTokenSource</type>
+          <declname>tokenSource</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Gets the representation of Task which run on the subject </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tokenSource</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="555" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="555" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1abc3913c0b4adb1386d6c32c3b7d4b46d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(Expression&lt; Action &gt; registerAction)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a7ce6d0a7fc574f55a8ecff1c2b9f5fb4">GetCancelationToken</reimplements>
+        <param>
+          <type>Expression&lt; Action &gt;</type>
+          <declname>registerAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="560" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="560" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4268a0a5eb79d2c91ffccd405d31681a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(Expression&lt; Action &gt; registerAction, int cancelAfterMiliseconds)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a9b5450f9ebdc8a56b3220cf1680e08c2">GetCancelationToken</reimplements>
+        <param>
+          <type>Expression&lt; Action &gt;</type>
+          <declname>registerAction</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cancelAfterMiliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="565" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="565" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1affb4cd6ba74af2c4aad794ffbb3305ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(Expression&lt; Action &gt; registerAction, TimeSpan cancelAfter)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a0a2b30a67ba0816d499429797c6bc6da">GetCancelationToken</reimplements>
+        <param>
+          <type>Expression&lt; Action &gt;</type>
+          <declname>registerAction</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>cancelAfter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="570" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="570" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1abddb1ba279b9579ad57abf444670da80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(int cancelAfterMiliseconds)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a4dca675d1c504f8f3404fa1f996da34f">GetCancelationToken</reimplements>
+        <param>
+          <type>int</type>
+          <declname>cancelAfterMiliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="575" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="575" bodyend="578"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a86a24fadb4b31771318fd59d0515663a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(TimeSpan cancelAfter)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a40bf0ff2e019c8a446c12289615a6496">GetCancelationToken</reimplements>
+        <param>
+          <type>TimeSpan</type>
+          <declname>cancelAfter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="580" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="580" bodyend="583"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a00a9e85ee394236e848c9a45438927f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncFuncBuilder&lt; T &gt;</type>
+        <definition>IAsyncFuncBuilder&lt;T&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.InitCheckerTimer</definition>
+        <argsstring>(int interval, int stopAfter)</argsstring>
+        <name>InitCheckerTimer</name>
+        <reimplements refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4_1a82e841f39ed125c299eb5c0b176d3662">InitCheckerTimer</reimplements>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stopAfter</declname>
+        </param>
+        <briefdescription>
+<para>Inits the checker status tasks timer </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>interval</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="595" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="595" bodyend="607"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aaf7a986d80202c023bc35d8de9f0cc54" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunTasks</definition>
+        <argsstring>()</argsstring>
+        <name>RunTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="138" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="138" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a9a02635dea836d1ae9163fd31d172e45" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunActionTasks</definition>
+        <argsstring>()</argsstring>
+        <name>RunActionTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="162" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="162" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8068211bc2f7b6ccf8bfa369984a5710" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AddToNotStartedTasks</definition>
+        <argsstring>(string index, Tuple&lt; Task, CancellationTokenSource &gt; tuple)</argsstring>
+        <name>AddToNotStartedTasks</name>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>Tuple&lt; Task, CancellationTokenSource &gt;</type>
+          <declname>tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="215" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="215" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc5ff87ee77bfb3e4b9d31086766d369" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.InitTimerNotStartedTasks</definition>
+        <argsstring>()</argsstring>
+        <name>InitTimerNotStartedTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="234" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="234" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc71f081bb9c8c4bc3450691ca0c0693" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.Notstarted_tasks_timer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>Notstarted_tasks_timer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="242" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="242" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a6c5bf16c154754fafd1f6fae859fc90a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunNotStartedTasks</definition>
+        <argsstring>()</argsstring>
+        <name>RunNotStartedTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="260" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="260" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a5da8cac249f583b1d4a19ba0a81f4d77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.AssertConditions</definition>
+        <argsstring>(string index)</argsstring>
+        <name>AssertConditions</name>
+        <param>
+          <type>string</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="315" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="315" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a18dac4702125a0551bd1c2a960fc92f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunAllParalelTasks</definition>
+        <argsstring>()</argsstring>
+        <name>RunAllParalelTasks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="396" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="396" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a86507db4628466363010df63d2b70b11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.RunTasksInParallel</definition>
+        <argsstring>(Task[] tasks)</argsstring>
+        <name>RunTasksInParallel</name>
+        <param>
+          <type>Task[]</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="442" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="442" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a0f8d01235c6c29951348833ee1b6f482" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.StopTimer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>StopTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="609" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="609" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ace7b49815de0730907c3f5252bca72d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.CheckTasksStatus</definition>
+        <argsstring>(Object source, ElapsedEventArgs e)</argsstring>
+        <name>CheckTasksStatus</name>
+        <param>
+          <type>Object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="615" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="615" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8c05ffa51bf4b68bbbf32b724df1d70e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tuple&lt; M, S &gt;</type>
+        <definition>Tuple&lt;M, S&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.BuildTuple&lt; M, S &gt;</definition>
+        <argsstring>(M m, S s)</argsstring>
+        <name>BuildTuple&lt; M, S &gt;</name>
+        <param>
+          <type>M</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="632" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="632" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a43a2da3ff8dd8a74838f8d056272e354" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tuple&lt; M, S, R &gt;</type>
+        <definition>Tuple&lt;M, S, R&gt; Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.BuildTuple&lt; M, S, R &gt;</definition>
+        <argsstring>(M m, S s, R r)</argsstring>
+        <name>BuildTuple&lt; M, S, R &gt;</name>
+        <param>
+          <type>M</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>R</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="637" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="637" bodyend="640"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4581afc356bcb965c234cb9bdcac9b1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequence.Builder.AsyncFuncBuilder&lt; T &gt;.print&lt; S &gt;</definition>
+        <argsstring>(S value)</argsstring>
+        <name>print&lt; S &gt;</name>
+        <param>
+          <type>S</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="642" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="642" bodyend="645"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>IAsyncFuncBuilder&lt; T &gt;</label>
+        <link refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4"/>
+      </node>
+      <node id="6">
+        <label>Sequence.Builder.AsyncFuncBuilder&lt; T &gt;</label>
+        <link refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>IAsyncFuncBuilder&lt; T &gt;</label>
+        <link refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4"/>
+      </node>
+      <node id="8">
+        <label>Sequence.Builder.AsyncFuncBuilder&lt; T &gt;</label>
+        <link refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>taskWrapper</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>stopTimer</edgelabel>
+          <edgelabel>timer</edgelabel>
+          <edgelabel>notstarted_tasks_timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>System</label>
+      </node>
+      <node id="10">
+        <label>Sequence.Space.ITaskWrapper&lt; T &gt;</label>
+        <link refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="15" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" bodystart="14" bodyend="649"/>
+    <listofallmembers>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a65534e9bdc4c8a4c0831f1190b6612af" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>ActionTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a380ed7b62b6f4fa436cea4b41f6b7aba" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AddActionTask</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8cbdf4d10e05e60a359309bb1822d7cd" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AddActionTask</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a62cd9896f5b2d9f25e7b96f7975cd71a" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AddContinue</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a345d5b3bdc22c3a5fe264d42a6daac0f" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AddContinueOption</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a143e3ca57b2c9e081a4b68f8767bfc19" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AddParalelTask</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aa600b44416b5dd7faf77cf53120f2cd9" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AddTask</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8068211bc2f7b6ccf8bfa369984a5710" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AddToNotStartedTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a5da8cac249f583b1d4a19ba0a81f4d77" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AssertConditions</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a5fc00e2d3b5e50273bf9ccb23263d86d" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>AsyncFuncBuilder</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a8c05ffa51bf4b68bbbf32b724df1d70e" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>BuildTuple&lt; M, S &gt;</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a43a2da3ff8dd8a74838f8d056272e354" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>BuildTuple&lt; M, S, R &gt;</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab6290b3229f67e089a42376eeef90b94" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>CancelTask</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ace7b49815de0730907c3f5252bca72d3" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>CheckTasksStatus</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc9a5e6e75121b68aaad5c53cb25cdf2" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>CheckTaskStatus</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ae260441ee6a66b4135de8a39981051b3" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>Conditions</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1abc3913c0b4adb1386d6c32c3b7d4b46d" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4268a0a5eb79d2c91ffccd405d31681a" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1affb4cd6ba74af2c4aad794ffbb3305ff" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1abddb1ba279b9579ad57abf444670da80" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a86a24fadb4b31771318fd59d0515663a" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ac32229f0dd188a9d36218cd2f817a5e2" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>GetSubject</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a53d12e3bf74f32e2632375d1dee1ad88" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>GetTaskForSubject</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a00a9e85ee394236e848c9a45438927f6" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>InitCheckerTimer</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc5ff87ee77bfb3e4b9d31086766d369" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>InitTimerNotStartedTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a38df044e9342b87591f6a3b83bc22b2e" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>notstarted_tasks_timer</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adc71f081bb9c8c4bc3450691ca0c0693" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>Notstarted_tasks_timer_Elapsed</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aaebb20aebacb44d7ccacfb923c011468" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>NotStartedActionTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aecb361030b9278a5a68658f39648241e" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>notStartedRetried</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab2170f87cd87a77a32a2458e1e2ec274" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>ParalelTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4581afc356bcb965c234cb9bdcac9b1b" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>print&lt; S &gt;</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a9a02635dea836d1ae9163fd31d172e45" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunActionTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aef53433d2f6e658cdda03447de1a7a66" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunAllAndContinue</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a18dac4702125a0551bd1c2a960fc92f5" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunAllParalelTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1adb3d9c109799a02e15ea4edd2b4804a1" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunInitialTask</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1ab46b96ad2c22e0c3dbd827e3fa2c3c67" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunInParallel</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a6c5bf16c154754fafd1f6fae859fc90a" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunNotStartedTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a528fc839ec2f9c37fcf00c5d3f8af5c1" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunParalelTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a767b852fbeee5fe47b66d4f2458acacd" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunTaskByIndex</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aaf7a986d80202c023bc35d8de9f0cc54" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunTasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a86507db4628466363010df63d2b70b11" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunTasksInParallel</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a504013090873e967fdf7995f266b9c94" prot="public" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>RunWhen</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a4667bd3b8d05ccad4aee8dd038746260" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>stopTimer</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a0f8d01235c6c29951348833ee1b6f482" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>StopTimer_Elapsed</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1a757433a753bf4b23bb81ee44c28c79c5" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>Subject</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aec4cc3910b1263d351693a814ab8faf8" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>taskFactory</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1aa160e70c9e84fcbc59412767a40dced4" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>Tasks</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1acb0f87db6b8d9f4fec46189f91adcaf5" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>taskWrapper</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4_1afa05b4b417bf2b8aea589830ab13ec8b" prot="private" virt="non-virtual"><scope>Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

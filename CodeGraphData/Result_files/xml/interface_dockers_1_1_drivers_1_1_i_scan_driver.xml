@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_dockers_1_1_drivers_1_1_i_scan_driver" kind="interface" prot="public">
+    <compoundname>Dockers::Drivers::IScanDriver</compoundname>
+    <derivedcompoundref refid="class_dockers_1_1_drivers_1_1_scan_driver" prot="public" virt="non-virtual">Dockers.Drivers.ScanDriver</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_scan_driver_1a157aa4c68a44f884b410b76be7cefca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IScanDriver.ScanStore</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>ScanStore</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1a8658b7f8439c7133bc64802bd7d0486c">ScanStore</reimplementedby>
+        <param>
+          <type>ControlPoint</type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IScanDriver.cs" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>Dockers.Drivers.IScanDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_scan_driver"/>
+      </node>
+      <node id="40">
+        <label>Dockers.Drivers.ScanDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_scan_driver"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IScanDriver.cs" line="7" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IScanDriver.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_scan_driver_1a157aa4c68a44f884b410b76be7cefca1" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IScanDriver</scope><name>ScanStore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

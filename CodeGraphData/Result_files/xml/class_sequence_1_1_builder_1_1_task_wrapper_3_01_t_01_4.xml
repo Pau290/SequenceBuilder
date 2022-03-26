@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>Sequence::Builder::TaskWrapper&lt; T &gt;</compoundname>
+    <basecompoundref refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4" prot="public" virt="non-virtual">Sequence.Space.ITaskWrapper&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a83f3aeeb3c66fd5c6d23b16747e0348f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Sequence.Builder.TaskWrapper&lt; T &gt;.GetTaskOnSubject</definition>
+        <argsstring>(Expression&lt; Action&lt; T &gt;&gt; action, CancellationTokenSource tokenSource, IAsyncFuncBuilder&lt; T &gt; builder)</argsstring>
+        <name>GetTaskOnSubject</name>
+        <reimplements refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a1c466c19b036142d5875029a3866e1bf">GetTaskOnSubject</reimplements>
+        <param>
+          <type>Expression&lt; Action&lt; T &gt;&gt;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>CancellationTokenSource</type>
+          <declname>tokenSource</declname>
+        </param>
+        <param>
+          <type>IAsyncFuncBuilder&lt; T &gt;</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+<para>Gets representation of Task </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tokenSource</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>builder</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a4e7fbe294f7780642e471713a7b8ed2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Sequence.Builder.TaskWrapper&lt; T &gt;.GetTaskOnSubjectV2</definition>
+        <argsstring>(Expression&lt; Action&lt; T &gt;&gt; action, CancellationTokenSource tokenSource, IAsyncFuncBuilder2&lt; T &gt; builder)</argsstring>
+        <name>GetTaskOnSubjectV2</name>
+        <reimplements refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a48e7f6e8d96803df566dd08e7021d792">GetTaskOnSubjectV2</reimplements>
+        <param>
+          <type>Expression&lt; Action&lt; T &gt;&gt;</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>CancellationTokenSource</type>
+          <declname>tokenSource</declname>
+        </param>
+        <param>
+          <type>IAsyncFuncBuilder2&lt; T &gt;</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="16" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1ade413a66a0ba2babc42da683d0d8ed45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.TaskWrapper&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(Expression&lt; Action &gt; registerAction)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a977380262f9297baa501c71224ab90a0">GetCancelationToken</reimplements>
+        <param>
+          <type>Expression&lt; Action &gt;</type>
+          <declname>registerAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="21" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="21" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a92ec8cb1563205f2be57d2f41869997c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.TaskWrapper&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(Expression&lt; Action &gt; registerAction, int cancelAfterMiliseconds)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1ae2402a31ff189e5c63d9800fb64c0424">GetCancelationToken</reimplements>
+        <param>
+          <type>Expression&lt; Action &gt;</type>
+          <declname>registerAction</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cancelAfterMiliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="30" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a1f02eba9d58f145f2768a1686f742d08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.TaskWrapper&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(Expression&lt; Action &gt; registerAction, TimeSpan cancelAfter)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a58c15ebff82d93bd9a0c20fa8ed33a08">GetCancelationToken</reimplements>
+        <param>
+          <type>Expression&lt; Action &gt;</type>
+          <declname>registerAction</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>cancelAfter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="39" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a006ad21ae473ae5af42a19b70682b8bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.TaskWrapper&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(int cancelAfterMiliseconds)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1a86c87d28c45bb0ad13b4513e8546ddd4">GetCancelationToken</reimplements>
+        <param>
+          <type>int</type>
+          <declname>cancelAfterMiliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="48" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a3c0de030861dc5d1891f48c674ace31b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sequence.Builder.TaskWrapper&lt; T &gt;.GetCancelationToken</definition>
+        <argsstring>(TimeSpan cancelAfter)</argsstring>
+        <name>GetCancelationToken</name>
+        <reimplements refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4_1ae36768f9695230677d7fcd92cbd4966d">GetCancelationToken</reimplements>
+        <param>
+          <type>TimeSpan</type>
+          <declname>cancelAfter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="53" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>Sequence.Builder.TaskWrapper&lt; T &gt;</label>
+        <link refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>ITaskWrapper&lt; T &gt;</label>
+        <link refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>Sequence.Builder.TaskWrapper&lt; T &gt;</label>
+        <link refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>ITaskWrapper&lt; T &gt;</label>
+        <link refid="interface_sequence_1_1_space_1_1_i_task_wrapper_3_01_t_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/TaskWrapper.cs" bodystart="9" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1ade413a66a0ba2babc42da683d0d8ed45" prot="public" virt="non-virtual"><scope>Sequence::Builder::TaskWrapper&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a92ec8cb1563205f2be57d2f41869997c" prot="public" virt="non-virtual"><scope>Sequence::Builder::TaskWrapper&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a1f02eba9d58f145f2768a1686f742d08" prot="public" virt="non-virtual"><scope>Sequence::Builder::TaskWrapper&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a006ad21ae473ae5af42a19b70682b8bb" prot="public" virt="non-virtual"><scope>Sequence::Builder::TaskWrapper&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a3c0de030861dc5d1891f48c674ace31b" prot="public" virt="non-virtual"><scope>Sequence::Builder::TaskWrapper&lt; T &gt;</scope><name>GetCancelationToken</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a83f3aeeb3c66fd5c6d23b16747e0348f" prot="public" virt="non-virtual"><scope>Sequence::Builder::TaskWrapper&lt; T &gt;</scope><name>GetTaskOnSubject</name></member>
+      <member refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4_1a4e7fbe294f7780642e471713a7b8ed2e" prot="public" virt="non-virtual"><scope>Sequence::Builder::TaskWrapper&lt; T &gt;</scope><name>GetTaskOnSubjectV2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

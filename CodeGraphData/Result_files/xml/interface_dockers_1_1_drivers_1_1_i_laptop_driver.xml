@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_dockers_1_1_drivers_1_1_i_laptop_driver" kind="interface" prot="public">
+    <compoundname>Dockers::Drivers::ILaptopDriver</compoundname>
+    <derivedcompoundref refid="class_dockers_1_1_drivers_1_1_laptop_driver" prot="public" virt="non-virtual">Dockers.Drivers.LaptopDriver</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_laptop_driver_1a3cebcd3a9d217ffc9352d1c7fee918b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.ILaptopDriver.FreeDocksForAndroid</definition>
+        <argsstring>(ExoAndroid android, List&lt; Good &gt; goods)</argsstring>
+        <name>FreeDocksForAndroid</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_laptop_driver_1adcda0a3b645e4cab334ec617499c7521">FreeDocksForAndroid</reimplementedby>
+        <param>
+          <type>ExoAndroid</type>
+          <declname>android</declname>
+        </param>
+        <param>
+          <type>List&lt; Good &gt;</type>
+          <declname>goods</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/ILaptopDriver.cs" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>Dockers.Drivers.LaptopDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_laptop_driver"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Dockers.Drivers.ILaptopDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/ILaptopDriver.cs" line="8" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/ILaptopDriver.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver_1a3cebcd3a9d217ffc9352d1c7fee918b2" prot="public" virt="non-virtual"><scope>Dockers::Drivers::ILaptopDriver</scope><name>FreeDocksForAndroid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

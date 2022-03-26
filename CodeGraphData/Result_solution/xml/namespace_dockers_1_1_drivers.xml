@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_dockers_1_1_drivers" kind="namespace">
+    <compoundname>Dockers::Drivers</compoundname>
+    <innerclass refid="class_dockers_1_1_drivers_1_1_control_point_driver" prot="public">Dockers::Drivers::ControlPointDriver</innerclass>
+    <innerclass refid="class_dockers_1_1_drivers_1_1_dock_driver" prot="public">Dockers::Drivers::DockDriver</innerclass>
+    <innerclass refid="class_dockers_1_1_drivers_1_1_docker_driver" prot="public">Dockers::Drivers::DockerDriver</innerclass>
+    <innerclass refid="class_dockers_1_1_drivers_1_1_exo_android_driver" prot="public">Dockers::Drivers::ExoAndroidDriver</innerclass>
+    <innerclass refid="class_dockers_1_1_drivers_1_1_laptop_driver" prot="public">Dockers::Drivers::LaptopDriver</innerclass>
+    <innerclass refid="class_dockers_1_1_drivers_1_1_radar_driver" prot="public">Dockers::Drivers::RadarDriver</innerclass>
+    <innerclass refid="class_dockers_1_1_drivers_1_1_scan_driver" prot="public">Dockers::Drivers::ScanDriver</innerclass>
+    <innerclass refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver" prot="public">Dockers::Drivers::IControlPointDriver</innerclass>
+    <innerclass refid="interface_dockers_1_1_drivers_1_1_i_dock_driver" prot="public">Dockers::Drivers::IDockDriver</innerclass>
+    <innerclass refid="interface_dockers_1_1_drivers_1_1_i_docker_driver" prot="public">Dockers::Drivers::IDockerDriver</innerclass>
+    <innerclass refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver" prot="public">Dockers::Drivers::IExoAndroidDriver</innerclass>
+    <innerclass refid="interface_dockers_1_1_drivers_1_1_i_laptop_driver" prot="public">Dockers::Drivers::ILaptopDriver</innerclass>
+    <innerclass refid="interface_dockers_1_1_drivers_1_1_i_radar_driver" prot="public">Dockers::Drivers::IRadarDriver</innerclass>
+    <innerclass refid="interface_dockers_1_1_drivers_1_1_i_scan_driver" prot="public">Dockers::Drivers::IScanDriver</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/ControlPointDriver.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

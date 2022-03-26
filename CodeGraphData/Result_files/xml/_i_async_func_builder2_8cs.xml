@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_i_async_func_builder2_8cs" kind="file">
+    <compoundname>IAsyncFuncBuilder2.cs</compoundname>
+    <innerclass refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" prot="public">Sequence::Builder::IAsyncFuncBuilder2&lt; T &gt;</innerclass>
+    <innernamespace refid="namespace_sequence_1_1_builder">Sequence::Builder</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq.Expressions;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Sequence.Builder</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal">IAsyncFuncBuilder2&lt;T&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T<sp/>GetSubject();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RunInitialTask(Func&lt;Task&lt;T&gt;&gt;<sp/>funcTask);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>AddTask(Task&lt;T&gt;<sp/>task,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>AddActionTask(Task<sp/>task,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>AddActionTask(Task<sp/>task,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index,<sp/>CancellationTokenSource<sp/>tokenSource);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>AddAction(Expression&lt;Action&lt;T&gt;&gt;<sp/>action,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RunAllAndContinue();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RunTaskInline(Task<sp/>task);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>AddContinueOption(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index,<sp/>Expression&lt;Action&lt;Task&gt;&gt;<sp/>action,<sp/>TaskContinuationOptions<sp/>option);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>AddContinue(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index,<sp/>Expression&lt;Action&lt;Task&gt;&gt;<sp/>action);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>RunWhen(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>otherTaskIndex,<sp/>Expression&lt;Func&lt;Task,<sp/>bool&gt;&gt;<sp/>expression);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CancelTask(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" kindref="compound">IAsyncFuncBuilder2&lt;T&gt;</ref><sp/>InitCheckerTimer(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interval,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>stopAfter);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TaskStatus?<sp/>CheckTaskStatus(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>↕<sp/>task<sp/>wrapper</highlight></codeline>
+<codeline lineno="109"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task<sp/>GetTaskForSubjectV2(Expression&lt;Action&lt;T&gt;&gt;<sp/>action,<sp/>CancellationTokenSource<sp/>tokenSource<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(Expression&lt;Action&gt;<sp/>registerAction);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(Expression&lt;Action&gt;<sp/>registerAction,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cancelAfterMiliseconds);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(Expression&lt;Action&gt;<sp/>registerAction,<sp/>TimeSpan<sp/>cancelAfter);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cancelAfterMiliseconds);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CancellationTokenSource<sp/>GetCancelationToken(TimeSpan<sp/>cancelAfter);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion<sp/><sp/>task<sp/>wrapper</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Interfaces/IAsyncFuncBuilder2.cs"/>
+  </compounddef>
+</doxygen>

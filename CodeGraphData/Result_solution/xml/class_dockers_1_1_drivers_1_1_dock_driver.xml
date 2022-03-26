@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_drivers_1_1_dock_driver" kind="class" prot="public">
+    <compoundname>Dockers::Drivers::DockDriver</compoundname>
+    <basecompoundref refid="interface_dockers_1_1_drivers_1_1_i_dock_driver" prot="public" virt="non-virtual">Dockers.Drivers.IDockDriver</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_drivers_1_1_dock_driver_1a3275b50e36810b8f246355ecdfce9f28" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver" kindref="compound">IExoAndroidDriver</ref></type>
+        <definition>IExoAndroidDriver Dockers.Drivers.DockDriver.androidDriver</definition>
+        <argsstring></argsstring>
+        <name>androidDriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="13" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a577ae843ab9b7aeb5144f8dfe1f0972a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Drivers.DockDriver.DockDriver</definition>
+        <argsstring>()</argsstring>
+        <name>DockDriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="15" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a37abeea38cff8e88355ce8c50b5a3bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.DockDriver.FreeExoAndroid</definition>
+        <argsstring>(ExoAndroid exoAndroid)</argsstring>
+        <name>FreeExoAndroid</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a7c317de8d0c77f70d2e2368fbe19e767">FreeExoAndroid</reimplements>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref></type>
+          <declname>exoAndroid</declname>
+        </param>
+        <briefdescription>
+<para>Free the exo android </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exoAndroid</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="20" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="20" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a17c7f94593d2c3e2c9a6fde9a5b0a2c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.DockDriver.SetDocks</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetDocks</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a3c80be579cef73767c5ea8f433896767">SetDocks</reimplements>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set docks </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="29" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a8aeb97d401f491302c4b5947c12e394c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task Dockers.Drivers.DockDriver.PresFreeButton</definition>
+        <argsstring>(ExoAndroid android)</argsstring>
+        <name>PresFreeButton</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a460880797484beef5a347a8b1f1f8283">PresFreeButton</reimplements>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref></type>
+          <declname>android</declname>
+        </param>
+        <briefdescription>
+<para>Pres free button </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>android</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="40" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a2a94477fa6d054ec61218036ea4d40a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.DockDriver.SetupDocks</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetupDocks</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1aa27364b428e9f0095056e4ee716a7705">SetupDocks</reimplements>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set up docks </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="45" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="45" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a92bdf9e3c435e19428112341e5acec61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.DockDriver.CloseDock</definition>
+        <argsstring>(Dock dock)</argsstring>
+        <name>CloseDock</name>
+        <reimplements refid="interface_dockers_1_1_drivers_1_1_i_dock_driver_1a3e7228f040ac91b989e44b14e349038f">CloseDock</reimplements>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kindref="compound">Dock</ref></type>
+          <declname>dock</declname>
+        </param>
+        <briefdescription>
+<para>Close dock </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dock</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="85" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="85" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1aaf4ba940a0d3ee3f932171608207efcc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kindref="compound">Dock</ref></type>
+        <definition>Dock Dockers.Drivers.DockDriver.getDock</definition>
+        <argsstring>(int i)</argsstring>
+        <name>getDock</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="94" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a28597e542e84789527dbd2e22d94e6fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Dockers.Drivers.DockDriver.getRandom</definition>
+        <argsstring>(int begin, int end)</argsstring>
+        <name>getRandom</name>
+        <param>
+          <type>int</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="99" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_drivers_1_1_dock_driver_1a11bf0c81f2cbe4ac6ab6115238cada2c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Dockers.Drivers.DockDriver.getRandomName</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="106" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="106" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>Dockers.Drivers.DockDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_dock_driver"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>IDockDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_dock_driver"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>Dockers.Drivers.IExoAndroidDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_exo_android_driver"/>
+      </node>
+      <node id="40">
+        <label>Dockers.Drivers.DockDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_dock_driver"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+        <childnode refid="42" relation="usage">
+          <edgelabel>androidDriver</edgelabel>
+        </childnode>
+      </node>
+      <node id="41">
+        <label>IDockDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_dock_driver"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" line="12" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Implementations/DockDriver.cs" bodystart="11" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a3275b50e36810b8f246355ecdfce9f28" prot="private" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>androidDriver</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a92bdf9e3c435e19428112341e5acec61" prot="public" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>CloseDock</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a577ae843ab9b7aeb5144f8dfe1f0972a" prot="public" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>DockDriver</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a37abeea38cff8e88355ce8c50b5a3bbd" prot="public" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>FreeExoAndroid</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1aaf4ba940a0d3ee3f932171608207efcc" prot="private" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>getDock</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a28597e542e84789527dbd2e22d94e6fc" prot="private" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>getRandom</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a11bf0c81f2cbe4ac6ab6115238cada2c" prot="private" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>getRandomName</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a8aeb97d401f491302c4b5947c12e394c" prot="public" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>PresFreeButton</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a17c7f94593d2c3e2c9a6fde9a5b0a2c2" prot="public" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>SetDocks</name></member>
+      <member refid="class_dockers_1_1_drivers_1_1_dock_driver_1a2a94477fa6d054ec61218036ea4d40a5" prot="public" virt="non-virtual"><scope>Dockers::Drivers::DockDriver</scope><name>SetupDocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

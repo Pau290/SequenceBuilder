@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequence_1_1_builder" kind="namespace">
+    <compoundname>Sequence::Builder</compoundname>
+    <innerclass refid="class_sequence_1_1_builder_1_1_async_func_builder_3_01_t_01_4" prot="public">Sequence::Builder::AsyncFuncBuilder&lt; T &gt;</innerclass>
+    <innerclass refid="class_sequence_1_1_builder_1_1_async_func_builder2_3_01_t_01_4" prot="public">Sequence::Builder::AsyncFuncBuilder2&lt; T &gt;</innerclass>
+    <innerclass refid="class_sequence_1_1_builder_1_1_task_wrapper_3_01_t_01_4" prot="public">Sequence::Builder::TaskWrapper&lt; T &gt;</innerclass>
+    <innerclass refid="interface_sequence_1_1_builder_1_1_i_async_func_builder_3_01_t_01_4" prot="public">Sequence::Builder::IAsyncFuncBuilder&lt; T &gt;</innerclass>
+    <innerclass refid="interface_sequence_1_1_builder_1_1_i_async_func_builder2_3_01_t_01_4" prot="public">Sequence::Builder::IAsyncFuncBuilder2&lt; T &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Sequence.Builder/Implementations/AsyncFuncBuilder.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

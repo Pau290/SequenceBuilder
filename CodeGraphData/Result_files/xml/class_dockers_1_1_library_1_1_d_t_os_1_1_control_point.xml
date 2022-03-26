@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kind="class" prot="public">
+    <compoundname>Dockers::Library::DTOs::ControlPoint</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a9a6543fcff0da7ec9ed6f54a52e805f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker" kindref="compound">Docker</ref> &gt;</type>
+        <definition>List&lt;Docker&gt; Dockers.Library.DTOs.ControlPoint.Dockers</definition>
+        <argsstring></argsstring>
+        <name>Dockers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" line="14" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1aaca4ec14477c6306c36bc5ce3f6a2ae3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref> &gt;</type>
+        <definition>List&lt;Ship&gt; Dockers.Library.DTOs.ControlPoint.Ships</definition>
+        <argsstring></argsstring>
+        <name>Ships</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" line="16" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a8bc0d848ef4f77755a21f60708b7d7c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Library.DTOs.ControlPoint.ControlPoint</definition>
+        <argsstring>()</argsstring>
+        <name>ControlPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" line="9" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a0e16de3f72550980b35166462ede1b9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Dockers.Library.DTOs.ControlPoint.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" line="18" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" bodystart="18" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" line="8" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ControlPoint.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a8bc0d848ef4f77755a21f60708b7d7c5" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ControlPoint</scope><name>ControlPoint</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a9a6543fcff0da7ec9ed6f54a52e805f3" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ControlPoint</scope><name>Dockers</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1aaca4ec14477c6306c36bc5ce3f6a2ae3" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ControlPoint</scope><name>Ships</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point_1a0e16de3f72550980b35166462ede1b9a" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ControlPoint</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

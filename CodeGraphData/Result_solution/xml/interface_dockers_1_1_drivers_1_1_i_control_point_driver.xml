@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_dockers_1_1_drivers_1_1_i_control_point_driver" kind="interface" prot="public">
+    <compoundname>Dockers::Drivers::IControlPointDriver</compoundname>
+    <derivedcompoundref refid="class_dockers_1_1_drivers_1_1_control_point_driver" prot="public" virt="non-virtual">Dockers.Drivers.ControlPointDriver</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a0204f4417eeea1df8e6c63be890f6b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.IncomeShip</definition>
+        <argsstring>(ControlPoint controlPoint, Ship ship)</argsstring>
+        <name>IncomeShip</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1aa9d57145f848b2737ba2a9001a919c79">IncomeShip</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref></type>
+          <declname>ship</declname>
+        </param>
+        <briefdescription>
+<para>Income ship </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ship</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a710722906b773a58d26b6783125bf1ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.SetDockers</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetDockers</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a63fd351ccfbbdd6d3eeae3fdda6bb9f3">SetDockers</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set dockers </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1abe1dac0ed58912520c1414332173e291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.FreeDockers</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>FreeDockers</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac6252ec44f8b4a2facb4151fca170a08">FreeDockers</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Free dockers </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1ad0b6179e6514fb4af6929ef15150b5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.LoadDocks</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>LoadDocks</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a691338523999322091361dda6aa2bf8e">LoadDocks</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Load docks </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3c50465ebc1738e093165e77940a659b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.SetupDocks</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetupDocks</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1ac27c8625b2b695cadc32f600be16e141">SetupDocks</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set up docks </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1aa1b1363d0f4c49d4bf9e1f080cf6cc01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.InitExoAndroids</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>InitExoAndroids</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1acad63d8fe1d00ff102e1440486dee4fc">InitExoAndroids</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Init exo androids </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3e4648d0535a0df4d6b599aa232e1b9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.InitRadar</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>InitRadar</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a7d0801553baebdad4f11af274dbfb6d5">InitRadar</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Init radar </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a1fa0e14db631b4600f4b1acb00c66570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IControlPointDriver.InformShipsToControlPoint</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>InformShipsToControlPoint</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a38fbd6d171bb3a1e1f6c399a284d6760">InformShipsToControlPoint</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set the result Ship to the control point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1af5c2775cb0711ebf5f50d1b0b361fbff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.IControlPointDriver.SetContext</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetContext</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a172967c3630af5cf29efcf95179534d5">SetContext</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set the Static Context </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a106f3d7ef0b3fb56decd489f84571566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Drivers.IControlPointDriver.BeginAutoOrganizationContext</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>BeginAutoOrganizationContext</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_control_point_driver_1a62fa0f15ac0a7919976b7b2d3a287d4c">BeginAutoOrganizationContext</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Begin Static auto organize </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="91" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Arrezife Software 2020 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="68">
+        <label>Dockers.Drivers.IControlPointDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver"/>
+      </node>
+      <node id="69">
+        <label>Dockers.Drivers.ControlPointDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_control_point_driver"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IControlPointDriver.cs" bodystart="9" bodyend="93"/>
+    <listofallmembers>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a106f3d7ef0b3fb56decd489f84571566" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>BeginAutoOrganizationContext</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1abe1dac0ed58912520c1414332173e291" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>FreeDockers</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a0204f4417eeea1df8e6c63be890f6b16" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>IncomeShip</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a1fa0e14db631b4600f4b1acb00c66570" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>InformShipsToControlPoint</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1aa1b1363d0f4c49d4bf9e1f080cf6cc01" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>InitExoAndroids</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3e4648d0535a0df4d6b599aa232e1b9d" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>InitRadar</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1ad0b6179e6514fb4af6929ef15150b5a2" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>LoadDocks</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1af5c2775cb0711ebf5f50d1b0b361fbff" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>SetContext</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a710722906b773a58d26b6783125bf1ce" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>SetDockers</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_control_point_driver_1a3c50465ebc1738e093165e77940a659b" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IControlPointDriver</scope><name>SetupDocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

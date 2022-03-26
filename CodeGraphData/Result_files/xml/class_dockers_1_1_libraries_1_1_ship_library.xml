@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_libraries_1_1_ship_library" kind="class" prot="public">
+    <compoundname>Dockers::Libraries::ShipLibrary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IShipLibrary</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_libraries_1_1_ship_library_1a4affc6c1a38b927e1a0d29ec0a05e3ab" prot="private" static="no" mutable="no">
+        <type>readonly IShipDatasource</type>
+        <definition>readonly IShipDatasource Dockers.Libraries.ShipLibrary.shipDataSource</definition>
+        <argsstring></argsstring>
+        <name>shipDataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_libraries_1_1_ship_library_1adfc6b694b99539dc4f43b7d0694d9ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Libraries.ShipLibrary.ShipLibrary</definition>
+        <argsstring>()</argsstring>
+        <name>ShipLibrary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" line="12" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_libraries_1_1_ship_library_1ae93e86b20fb3c4e4b0d834e152c48749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref> &gt; &gt;</type>
+        <definition>async Task&lt;List&lt;Ship&gt; &gt; Dockers.Libraries.ShipLibrary.GetShips</definition>
+        <argsstring>()</argsstring>
+        <name>GetShips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" line="17" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>IShipLibrary</label>
+      </node>
+      <node id="93">
+        <label>Dockers.Libraries.ShipLibrary</label>
+        <link refid="class_dockers_1_1_libraries_1_1_ship_library"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>IShipLibrary</label>
+      </node>
+      <node id="95">
+        <label>Dockers.Libraries.ShipLibrary</label>
+        <link refid="class_dockers_1_1_libraries_1_1_ship_library"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" line="9" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Libraries/Implementations/ShipLibrary.cs" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_libraries_1_1_ship_library_1ae93e86b20fb3c4e4b0d834e152c48749" prot="public" virt="non-virtual"><scope>Dockers::Libraries::ShipLibrary</scope><name>GetShips</name></member>
+      <member refid="class_dockers_1_1_libraries_1_1_ship_library_1a4affc6c1a38b927e1a0d29ec0a05e3ab" prot="private" virt="non-virtual"><scope>Dockers::Libraries::ShipLibrary</scope><name>shipDataSource</name></member>
+      <member refid="class_dockers_1_1_libraries_1_1_ship_library_1adfc6b694b99539dc4f43b7d0694d9ca9" prot="public" virt="non-virtual"><scope>Dockers::Libraries::ShipLibrary</scope><name>ShipLibrary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

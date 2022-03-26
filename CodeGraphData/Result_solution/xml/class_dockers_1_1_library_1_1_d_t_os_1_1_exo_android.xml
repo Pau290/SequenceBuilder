@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kind="class" prot="public">
+    <compoundname>Dockers::Library::DTOs::ExoAndroid</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a8f5d4ec1d838f6304f968e6d8d7bab19" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Guid</type>
+        <definition>Guid Dockers.Library.DTOs.ExoAndroid.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="28" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a731635cdda487f20b847259f58a096b6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Dockers.Library.DTOs.ExoAndroid.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="30" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1aaac63a97efba1f2efdb55e000b6da8fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Guid</type>
+        <definition>Guid Dockers.Library.DTOs.ExoAndroid.DockerId</definition>
+        <argsstring></argsstring>
+        <name>DockerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="32" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a7cccff8c1157b0682e5086c092163af2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.ExoAndroid.IsSearchingStore</definition>
+        <argsstring></argsstring>
+        <name>IsSearchingStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="36" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a83086323e7ef53e6479160a69325335a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.ExoAndroid.IsSearchingGoods</definition>
+        <argsstring></argsstring>
+        <name>IsSearchingGoods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="38" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a8e5a360c40eb09f8c0641dd8993bc572" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kindref="compound">Dock</ref></type>
+        <definition>Dock Dockers.Library.DTOs.ExoAndroid.Dock</definition>
+        <argsstring></argsstring>
+        <name>Dock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="40" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a0bf8a0ac73bd8eda5a45a91354e617b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kindref="compound">Dock</ref> &gt;</type>
+        <definition>List&lt;Dock&gt; Dockers.Library.DTOs.ExoAndroid.InDocks</definition>
+        <argsstring></argsstring>
+        <name>InDocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="42" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a6ef218176bf7229e3b1ef2d4ad4ebd42" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref> &gt;</type>
+        <definition>List&lt;Good&gt; Dockers.Library.DTOs.ExoAndroid.DockedGoods</definition>
+        <argsstring></argsstring>
+        <name>DockedGoods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="44" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" compoundref="_scan_driver_8cs" startline="35" endline="81">Dockers.Drivers.ScanDriver.printAndroids</referencedby>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1a4cd63f624aa418fdfa1c1b5c805af939" compoundref="_scan_driver_8cs" startline="83" endline="136">Dockers.Drivers.ScanDriver.printDocks</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1aaf5f40b2d5b17966fec82df216260a2d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref> &gt;</type>
+        <definition>List&lt;Good&gt; Dockers.Library.DTOs.ExoAndroid.LoadedGoods</definition>
+        <argsstring></argsstring>
+        <name>LoadedGoods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="46" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" compoundref="_scan_driver_8cs" startline="35" endline="81">Dockers.Drivers.ScanDriver.printAndroids</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a71c6bd1285c97fd0c8327d845ce84567" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" kindref="compound">Good</ref> &gt;</type>
+        <definition>List&lt;Good&gt; Dockers.Library.DTOs.ExoAndroid.CarryGoods</definition>
+        <argsstring></argsstring>
+        <name>CarryGoods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="50" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a960a64174274627ff4f3596208d9f5d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.ExoAndroid.HasDocks</definition>
+        <argsstring></argsstring>
+        <name>HasDocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="58" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1ac18bfce3bcb1391fd4ddc3c9f2c2cc38" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.ExoAndroid.ReservedWeightCapacity</definition>
+        <argsstring></argsstring>
+        <name>ReservedWeightCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="60" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a36caa85edf47a37e417410f4e3926649" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.ExoAndroid.WeightCapacity</definition>
+        <argsstring></argsstring>
+        <name>WeightCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="62" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a4e58a0763bbb68a3c1a955437e0c89ad" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Dockers.Library.DTOs.ExoAndroid.Velocity</definition>
+        <argsstring></argsstring>
+        <name>Velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="64" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a3926b72d1f883acfacc6cecd1916e971" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.ExoAndroid.IsInDock</definition>
+        <argsstring></argsstring>
+        <name>IsInDock</name>
+        <initializer>=&gt; this.Dock != null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="34" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a110d05242e1a051ba50baf2e910f2cf7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.ExoAndroid.LoadWeight</definition>
+        <argsstring></argsstring>
+        <name>LoadWeight</name>
+        <initializer>=&gt; this.LoadedGoods.Sum(good =&gt; good.Weight)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="48" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a5371db3e5e8e144b2bf7818d61af657f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.ExoAndroid.CarryWeight</definition>
+        <argsstring></argsstring>
+        <name>CarryWeight</name>
+        <initializer>=&gt; this.CarryGoods.Sum(good =&gt; good.Weight)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="52" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a933752f76d406f80f0d11d15eec6477e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.ExoAndroid.LoadedWeight</definition>
+        <argsstring></argsstring>
+        <name>LoadedWeight</name>
+        <initializer>=&gt; this.LoadedGoods.Sum(good =&gt; good.Weight)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="54" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" compoundref="_scan_driver_8cs" startline="35" endline="81">Dockers.Drivers.ScanDriver.printAndroids</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a654a295f133f71967c4d1cfb697d2f68" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.ExoAndroid.DockedWeight</definition>
+        <argsstring></argsstring>
+        <name>DockedWeight</name>
+        <initializer>=&gt; this.DockedGoods.Sum(good =&gt; good.Weight)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="56" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_dockers_1_1_drivers_1_1_scan_driver_1ae7aace412c2f65aa8403a650fd3fba83" compoundref="_scan_driver_8cs" startline="35" endline="81">Dockers.Drivers.ScanDriver.printAndroids</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a90fc25dab8ea0014675907ece9d5d55a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Library.DTOs.ExoAndroid.ExoAndroid</definition>
+        <argsstring>()</argsstring>
+        <name>ExoAndroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="10" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1ab49901f1f98cbbd970cd7a05fbee3677" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Dockers.Library.DTOs.ExoAndroid.getRandomName</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="90" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="90" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a15b46fc8144493df3b2506801579f40f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Dockers.Library.DTOs.ExoAndroid.getRandomWeightCapacity</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomWeightCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="111" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="111" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a24da49ac6e74d58ae51b57c669e56457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Library.DTOs.ExoAndroid.ExoAndroid</definition>
+        <argsstring>(Guid dockerId)</argsstring>
+        <name>ExoAndroid</name>
+        <param>
+          <type>Guid</type>
+          <declname>dockerId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="23" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a827f8c1944c52c1d8f610d1ff57c8c8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Dockers.Library.DTOs.ExoAndroid.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="66" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="66" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" line="9" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/ExoAndroid.cs" bodystart="8" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a71c6bd1285c97fd0c8327d845ce84567" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>CarryGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a5371db3e5e8e144b2bf7818d61af657f" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>CarryWeight</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a8e5a360c40eb09f8c0641dd8993bc572" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>Dock</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a6ef218176bf7229e3b1ef2d4ad4ebd42" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>DockedGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a654a295f133f71967c4d1cfb697d2f68" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>DockedWeight</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1aaac63a97efba1f2efdb55e000b6da8fe" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>DockerId</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a90fc25dab8ea0014675907ece9d5d55a" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>ExoAndroid</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a24da49ac6e74d58ae51b57c669e56457" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>ExoAndroid</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1ab49901f1f98cbbd970cd7a05fbee3677" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>getRandomName</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a15b46fc8144493df3b2506801579f40f" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>getRandomWeightCapacity</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a960a64174274627ff4f3596208d9f5d0" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>HasDocks</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a8f5d4ec1d838f6304f968e6d8d7bab19" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>Id</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a0bf8a0ac73bd8eda5a45a91354e617b1" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>InDocks</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a3926b72d1f883acfacc6cecd1916e971" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>IsInDock</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a83086323e7ef53e6479160a69325335a" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>IsSearchingGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a7cccff8c1157b0682e5086c092163af2" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>IsSearchingStore</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1aaf5f40b2d5b17966fec82df216260a2d" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>LoadedGoods</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a933752f76d406f80f0d11d15eec6477e" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>LoadedWeight</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a110d05242e1a051ba50baf2e910f2cf7" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>LoadWeight</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a731635cdda487f20b847259f58a096b6" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>Name</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1ac18bfce3bcb1391fd4ddc3c9f2c2cc38" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>ReservedWeightCapacity</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a827f8c1944c52c1d8f610d1ff57c8c8e" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>ToString</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a4e58a0763bbb68a3c1a955437e0c89ad" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>Velocity</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android_1a36caa85edf47a37e417410f4e3926649" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::ExoAndroid</scope><name>WeightCapacity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

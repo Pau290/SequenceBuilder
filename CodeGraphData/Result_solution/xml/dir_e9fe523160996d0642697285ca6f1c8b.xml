@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e9fe523160996d0642697285ca6f1c8b" kind="dir">
+    <compoundname>C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Interfaces</compoundname>
+    <innerfile refid="_i_control_point_data_source_8cs">IControlPointDataSource.cs</innerfile>
+    <innerfile refid="_i_ship_datasource_8cs">IShipDatasource.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Interfaces/"/>
+  </compounddef>
+</doxygen>

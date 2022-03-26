@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker" kind="class" prot="public">
+    <compoundname>Dockers::Library::DTOs::Docker</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1aa2bf59672404814248be514c754fc695" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Guid</type>
+        <definition>Guid Dockers.Library.DTOs.Docker.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="25" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a0de41bde92aa7d3e44a10ed8c36be609" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Dockers.Library.DTOs.Docker.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="27" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1aaa6a82a2aa91d7f9de2f58c12a2bac88" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Dockers.Library.DTOs.Docker.IsAvailable</definition>
+        <argsstring></argsstring>
+        <name>IsAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="29" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1ab67e13c302da021077a4adac10368f4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" kindref="compound">Ship</ref> &gt;</type>
+        <definition>List&lt;Ship&gt; Dockers.Library.DTOs.Docker.InDockerShips</definition>
+        <argsstring></argsstring>
+        <name>InDockerShips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="31" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a5c7b4fad3ef1fa36923726d0430a4eca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" kindref="compound">ExoAndroid</ref> &gt;</type>
+        <definition>List&lt;ExoAndroid&gt; Dockers.Library.DTOs.Docker.ExoAndroids</definition>
+        <argsstring></argsstring>
+        <name>ExoAndroids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="33" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a5c4c89c7c96751407bbb389b3095d7b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" kindref="compound">Dock</ref> &gt;</type>
+        <definition>List&lt;Dock&gt; Dockers.Library.DTOs.Docker.Docks</definition>
+        <argsstring></argsstring>
+        <name>Docks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="35" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a60f32e595c977bc70ca82e6534f98cc3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Library.DTOs.Docker.Docker</definition>
+        <argsstring>()</argsstring>
+        <name>Docker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="11" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1ae796b33187f39652adb34ca984c559a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dockers.Library.DTOs.Docker.Docker</definition>
+        <argsstring>(Guid id, string name, bool isAvailable)</argsstring>
+        <name>Docker</name>
+        <param>
+          <type>Guid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isAvailable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="18" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a3b2913f7113978a0a5c0429418751ecf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dockers.Library.DTOs.Docker.OpenDocker</definition>
+        <argsstring>(object source)</argsstring>
+        <name>OpenDocker</name>
+        <param>
+          <type>object</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="37" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="37" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a840a04ffce3bdf7e1d5330dfc031c22f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Dockers.Library.DTOs.Docker.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="52" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="52" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Docker.cs" bodystart="9" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a60f32e595c977bc70ca82e6534f98cc3" prot="private" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>Docker</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1ae796b33187f39652adb34ca984c559a8" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>Docker</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a5c4c89c7c96751407bbb389b3095d7b5" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>Docks</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a5c7b4fad3ef1fa36923726d0430a4eca" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>ExoAndroids</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1aa2bf59672404814248be514c754fc695" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>Id</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1ab67e13c302da021077a4adac10368f4a" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>InDockerShips</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1aaa6a82a2aa91d7f9de2f58c12a2bac88" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>IsAvailable</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a0de41bde92aa7d3e44a10ed8c36be609" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>Name</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a3b2913f7113978a0a5c0429418751ecf" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>OpenDocker</name></member>
+      <member refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker_1a840a04ffce3bdf7e1d5330dfc031c22f" prot="public" virt="non-virtual"><scope>Dockers::Library::DTOs::Docker</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

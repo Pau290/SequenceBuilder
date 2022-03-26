@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_dockers_1_1_drivers_1_1_i_docker_driver" kind="interface" prot="public">
+    <compoundname>Dockers::Drivers::IDockerDriver</compoundname>
+    <derivedcompoundref refid="class_dockers_1_1_drivers_1_1_docker_driver" prot="public" virt="non-virtual">Dockers.Drivers.DockerDriver</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a3c51db1a443d069016041d015b0b46e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IDockerDriver.OpenDockers</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>OpenDockers</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_docker_driver_1acd5900138f16b0b12b1d79f527f9ef8a">OpenDockers</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Open dockers </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IDockerDriver.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_docker_driver_1aef77eb7ec3b8c9d1916802b6c387884d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IDockerDriver.SetDockersToControlPoint</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetDockersToControlPoint</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_docker_driver_1a6a2194c989c750f8b415fabc761aef08">SetDockersToControlPoint</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set dockers to control point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IDockerDriver.cs" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_docker_driver_1ac7a2f4b2031e40f491fb0c64a11db6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IDockerDriver.SetDocks</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetDocks</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_docker_driver_1abf8b8355a9d1d405ce289974462fe08f">SetDocks</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set docks to control point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IDockerDriver.cs" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a4d47a5cc392511d24d0bc272a328da01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IDockerDriver.SetupDocks</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>SetupDocks</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_docker_driver_1a5a4154b119d854c93f0b928b97de2247">SetupDocks</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Set up the docks </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IDockerDriver.cs" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a433cc2c513c087600bf298a5675347cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IDockerDriver.InitExoAndroids</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>InitExoAndroids</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_docker_driver_1a3efce1203881b12de80a8f7c23cc5d1c">InitExoAndroids</reimplementedby>
+        <param>
+          <type><ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref></type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Init exo androids </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IDockerDriver.cs" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Arrezife Software 2020 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="77">
+        <label>Dockers.Drivers.IDockerDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_docker_driver"/>
+      </node>
+      <node id="78">
+        <label>Dockers.Drivers.DockerDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_docker_driver"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IDockerDriver.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IDockerDriver.cs" bodystart="9" bodyend="54"/>
+    <listofallmembers>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a433cc2c513c087600bf298a5675347cf" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IDockerDriver</scope><name>InitExoAndroids</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a3c51db1a443d069016041d015b0b46e4" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IDockerDriver</scope><name>OpenDockers</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1aef77eb7ec3b8c9d1916802b6c387884d" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IDockerDriver</scope><name>SetDockersToControlPoint</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1ac7a2f4b2031e40f491fb0c64a11db6a1" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IDockerDriver</scope><name>SetDocks</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_docker_driver_1a4d47a5cc392511d24d0bc272a328da01" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IDockerDriver</scope><name>SetupDocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

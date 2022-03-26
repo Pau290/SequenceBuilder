@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_dockers_1_1_drivers_1_1_i_radar_driver" kind="interface" prot="public">
+    <compoundname>Dockers::Drivers::IRadarDriver</compoundname>
+    <derivedcompoundref refid="class_dockers_1_1_drivers_1_1_radar_driver" prot="public" virt="non-virtual">Dockers.Drivers.RadarDriver</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_radar_driver_1adc7f1704eff99f2c7280e50ee969a128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IRadarDriver.Init</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>Init</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_radar_driver_1adc51bdea68d249a6798ea726582d25a3">Init</reimplementedby>
+        <param>
+          <type>ControlPoint</type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Inits the control point radar </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IRadarDriver.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_dockers_1_1_drivers_1_1_i_radar_driver_1a5c49b505465968ea96c88210d6f4f654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Dockers.Drivers.IRadarDriver.InformShipsToControlPoint</definition>
+        <argsstring>(ControlPoint controlPoint)</argsstring>
+        <name>InformShipsToControlPoint</name>
+        <reimplementedby refid="class_dockers_1_1_drivers_1_1_radar_driver_1aeeb9d69f7d148fc890ad50ad1a7f9f1a">InformShipsToControlPoint</reimplementedby>
+        <param>
+          <type>ControlPoint</type>
+          <declname>controlPoint</declname>
+        </param>
+        <briefdescription>
+<para>Sets the results Ship to the control point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IRadarDriver.cs" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Arrezife Software 2020 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>Dockers.Drivers.IRadarDriver</label>
+        <link refid="interface_dockers_1_1_drivers_1_1_i_radar_driver"/>
+      </node>
+      <node id="37">
+        <label>Dockers.Drivers.RadarDriver</label>
+        <link refid="class_dockers_1_1_drivers_1_1_radar_driver"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IRadarDriver.cs" line="10" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Drivers/Interfaces/IRadarDriver.cs" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1a5c49b505465968ea96c88210d6f4f654" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IRadarDriver</scope><name>InformShipsToControlPoint</name></member>
+      <member refid="interface_dockers_1_1_drivers_1_1_i_radar_driver_1adc7f1704eff99f2c7280e50ee969a128" prot="public" virt="non-virtual"><scope>Dockers::Drivers::IRadarDriver</scope><name>Init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

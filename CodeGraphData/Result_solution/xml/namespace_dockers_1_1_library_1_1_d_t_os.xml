@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_dockers_1_1_library_1_1_d_t_os" kind="namespace">
+    <compoundname>Dockers::Library::DTOs</compoundname>
+    <innerclass refid="class_dockers_1_1_library_1_1_d_t_os_1_1_context" prot="public">Dockers::Library::DTOs::Context</innerclass>
+    <innerclass refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" prot="public">Dockers::Library::DTOs::ControlPoint</innerclass>
+    <innerclass refid="class_dockers_1_1_library_1_1_d_t_os_1_1_dock" prot="public">Dockers::Library::DTOs::Dock</innerclass>
+    <innerclass refid="class_dockers_1_1_library_1_1_d_t_os_1_1_docker" prot="public">Dockers::Library::DTOs::Docker</innerclass>
+    <innerclass refid="class_dockers_1_1_library_1_1_d_t_os_1_1_exo_android" prot="public">Dockers::Library::DTOs::ExoAndroid</innerclass>
+    <innerclass refid="class_dockers_1_1_library_1_1_d_t_os_1_1_good" prot="public">Dockers::Library::DTOs::Good</innerclass>
+    <innerclass refid="class_dockers_1_1_library_1_1_d_t_os_1_1_ship" prot="public">Dockers::Library::DTOs::Ship</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/DTOs/Context.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

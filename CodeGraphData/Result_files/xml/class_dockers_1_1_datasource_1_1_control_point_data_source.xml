@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dockers_1_1_datasource_1_1_control_point_data_source" kind="class" prot="public">
+    <compoundname>Dockers::Datasource::ControlPointDataSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IControlPointDataSource</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dockers_1_1_datasource_1_1_control_point_data_source_1aba91a96a7b3e2893faf73eb19de3cad9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_dockers_1_1_library_1_1_d_t_os_1_1_control_point" kindref="compound">ControlPoint</ref> &gt; IControlPointDataSource.</type>
+        <definition>Task&lt;ControlPoint&gt; IControlPointDataSource. Dockers.Datasource.ControlPointDataSource.GetControlPoint</definition>
+        <argsstring>()</argsstring>
+        <name>GetControlPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ControlPointDataSource.cs" line="8" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ControlPointDataSource.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>Dockers.Datasource.ControlPointDataSource</label>
+        <link refid="class_dockers_1_1_datasource_1_1_control_point_data_source"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IControlPointDataSource</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>Dockers.Datasource.ControlPointDataSource</label>
+        <link refid="class_dockers_1_1_datasource_1_1_control_point_data_source"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IControlPointDataSource</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ControlPointDataSource.cs" line="7" column="1" bodyfile="C:/Users/METHOD/source/repos/SequenceBuilder/Dockers.Library/Backend/Datasource/Implementations/ControlPointDataSource.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_dockers_1_1_datasource_1_1_control_point_data_source_1aba91a96a7b3e2893faf73eb19de3cad9" prot="private" virt="non-virtual"><scope>Dockers::Datasource::ControlPointDataSource</scope><name>GetControlPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
